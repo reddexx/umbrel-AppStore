@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: reddexx-bookstack
+name: Bookstack
+tagline: 
+icon: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/BookStack_logo.svg/345px-BookStack_logo.svg.png
+category: Wiki
+version: "1.0.0"
+port: 4000
+description: >-
+  Install Bookstack on Umbrell
+
+developer: Umbrel
+website: https://bookstack.com
+submitter: Umbrel
+submission: https://github.com/getumbrel/umbrel-hello-world-app
+repo: https://github.com/getumbrel/umbrel-hello-world-app
+support: https://github.com/getumbrel/umbrel-hello-world-app/issues
+gallery:
+  - https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/5702aea8-a573-4956-9fbc-36b5253b6157.png
+  - https://opensource.com/sites/default/files/2022-11/bookstack.bookview.png
+  - https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/bd02a1a4-6aa1-47c9-bff5-55658c7c10bb.png
+releaseNotes: >-
+  Version 24.05.1
+dependencies: []
+path: ""
+defaultUsername: "admin@admin.com"
+defaultPassword: "password"
