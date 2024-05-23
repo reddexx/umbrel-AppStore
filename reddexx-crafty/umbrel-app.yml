@@ -3,7 +3,7 @@ id: reddexx-crafty
 name: Crafty
 tagline: 
 icon: https://gitlab.com/uploads/-/system/project/avatar/20430749/Crafty_4-0_Logo_square.ico
-category: Gameserver
+category: Hosting
 version: "1.0.0"
 port: 8500
 description: >-

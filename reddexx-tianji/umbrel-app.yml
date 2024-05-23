@@ -4,7 +4,7 @@ name: Tianji
 tagline: 
 icon: https://github.com/msgbyte/tianji/raw/master/website/static/img/logo.svg
 category: Monitoring
-version: "1.0.0"
+version: "1.0.1"
 port: 20110
 description: >-
   Install Tianji on Umbrell
