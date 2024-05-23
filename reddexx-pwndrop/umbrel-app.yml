@@ -4,7 +4,7 @@ name: PWNDrop
 tagline: 
 icon: https://cdn.cyberpunk.rs/wp-content/uploads/2020/05/pwndrop-logo.jpg
 category: Hosting
-version: "1.0.1"
+version: "1.0.2"
 port: 20111
 description: >-
   Install PWNDrop on Umbrell
@@ -22,6 +22,6 @@ gallery:
 releaseNotes: >
   
 dependencies: []
-path: ""
+path: "/pwndrop"
 defaultUsername: "See you in the Logs"
 defaultPassword: "See you in the Logs"
