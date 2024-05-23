@@ -19,7 +19,7 @@ services:
     - DB_DATABASE=bookstack
     - DB_USERNAME=bookstack
     - DB_PASSWORD=secret
-    - APP_URL=http://localhost
+    - APP_URL=http://
     #set the APP_ to the URL of bookstack without without a trailing slash APP_URL=https://example.com
     # APP_KEY is used for encryption where needed, so needs to be persisted to
     # preserve decryption abilities.
@@ -29,7 +29,7 @@ services:
     - uploads:/var/www/bookstack/public/uploads
     - storage-uploads:/var/www/bookstack/storage/uploads
     ports:
-    - "8080:8080"
+    - "4555:8080"
 
 volumes:
  mysql-data:
