@@ -12,9 +12,9 @@ description: >-
 
   Once you reach the Crafty webpage you will be greeted with a login screen. The default credentials can be set in default.json before the first run:
 
-- Go in the Settings > Advanced settings > Terminal > Apps
-- use this Command "vi app/config/default-creds.txt"
-  We highly recommend changing this immediately after logging in.
+  - Go in the Settings > Advanced settings > Terminal > Apps
+  - use this Command "vi app/config/default-creds.txt"
+    We highly recommend changing this immediately after logging in.
 
 developer: Arcadia Technology
 website: https://craftycontrol.com/
