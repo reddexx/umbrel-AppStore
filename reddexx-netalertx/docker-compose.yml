@@ -12,6 +12,6 @@ services:
         - port=20211
       restart: always
       volumes:
-        - netxdb:/app/db
-        - netxconfig:/app/config
+        - /netxdb:/app/db
+        - /netxconfig:/app/config
       network_mode: host
