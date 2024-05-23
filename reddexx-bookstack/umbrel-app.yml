@@ -4,7 +4,7 @@ name: Bookstack
 tagline: 
 icon: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/BookStack_logo.svg/345px-BookStack_logo.svg.png
 category: Wiki
-version: "1.0.4"
+version: "1.0.5"
 port: 4555
 description: >-
   Install Bookstack on Umbrell
