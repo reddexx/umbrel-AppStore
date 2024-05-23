@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: reddexx-netalertx
+name: NetAlertX (Pi.Alert)
+tagline: 
+icon: https://avatars.githubusercontent.com/u/96159884?v=4
+category: Monitoring
+version: "1.0.0"
+port: 20211
+description: >-
+  Install NetAlertX on Umbrell
+  Get visibility of what's going on on your WIFI/LAN network. Schedule scans for devices, port changes and get alerts if unknown devices or changes are found. Write your own Plugins with auto-generated UI and in-build notification system. Build out and easily maintain your network source of truth (NSoT).
+developer: jokob-sk
+website: https://github.com/jokob-sk
+submitter: Reddexx
+submission:
+repo:
+support: 
+gallery:
+  - https://github.com/jokob-sk/NetAlertX/blob/main/docs/img/devices_split.png?raw=true
+  - https://github.com/jokob-sk/NetAlertX/blob/main/docs/img/device_details.png?raw=true
+  - https://github.com/jokob-sk/NetAlertX/blob/main/docs/img/network.png?raw=true
+releaseNotes: >
+  
+dependencies: []
+path: ""
+defaultUsername: "See you in the Logs"
+defaultPassword: "See you in the Logs"
