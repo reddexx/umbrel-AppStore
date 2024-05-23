@@ -20,7 +20,7 @@ gallery:
   - https://opensource.com/sites/default/files/2022-11/bookstack.bookview.png
   - https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/bd02a1a4-6aa1-47c9-bff5-55658c7c10bb.png
 releaseNotes: >-
-Version 24.05.1
+  Version 24.05.1
 dependencies: []
 path: ""
 defaultUsername: "admin@admin.com"
