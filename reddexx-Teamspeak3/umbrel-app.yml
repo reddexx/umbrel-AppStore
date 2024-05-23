@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: reddexx-Teamspeak3
+name: Teamspeak3 Server
+tagline: 
+icon: https://theme.zdassets.com/theme_assets/9496188/a876ae79f06eee3404dcf59a7ad4dd32e8e53d8e.png
+category: Communication
+version: "1.0.0"
+port: 4990
+description: >-
+  Install Teamspeak3 with Webinterface on Umbrell
+
+developer: Teamspeak
+website: https://teamspeak.com
+submitter: Reddexx
+submission:
+repo:
+support: 
+gallery:
+  - https://www.myqnap.org/wp-content/uploads/FVxrCuqWYAc6Up7.jpg
+  - https://camo.githubusercontent.com/3d538a7c35182500e600dff58e534bbeb16520795bb088b4c217abb3519f14e8/68747470733a2f2f692e696d6775722e636f6d2f75503358674b692e706e67
+releaseNotes: >
+  
+dependencies: []
+path: ""
+defaultUsername: "See you Logs"
+defaultPassword: "See you Logs"
