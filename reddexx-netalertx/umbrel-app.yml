@@ -23,5 +23,5 @@ releaseNotes: >
   
 dependencies: []
 path: ""
-defaultUsername: "See you in the Logs"
-defaultPassword: "See you in the Logs"
+defaultUsername: ""
+defaultPassword: ""
