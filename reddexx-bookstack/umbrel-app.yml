@@ -9,12 +9,12 @@ port: 4555
 description: >-
   Install Bookstack on Umbrell
 
-developer: Umbrel
+developer: ssddanbrown
 website: https://bookstack.com
-submitter: Umbrel
-submission: https://github.com/getumbrel/umbrel-hello-world-app
-repo: https://github.com/getumbrel/umbrel-hello-world-app
-support: https://github.com/getumbrel/umbrel-hello-world-app/issues
+submitter: Reddexx
+submission:
+repo:
+support: 
 gallery:
   - https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/5702aea8-a573-4956-9fbc-36b5253b6157.png
   - https://opensource.com/sites/default/files/2022-11/bookstack.bookview.png
