@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: reddexx-vikunja
+name: Vikunja
+tagline: 
+icon: https://pbs.twimg.com/profile_images/1271556216179896330/IwDSeYc4_400x400.jpg
+category: Wiki
+version: "1.0.0"
+port: 3000
+description: >
+  Install Vikunja on Umbrell
+  The open-source, self-hostable to-do app.
+  Organize everything, on all platforms.
+developer: Konrad Langenberg Software
+website: https://vikunja.io/
+submitter: Reddexx
+submission:
+repo:
+support: 
+gallery:
+  - https://vikunja.io/images/vikunja/09-task-detail-dark.webp
+  - https://vikunja.cloud/images/vikunja/01-task-overview.webp
+releaseNotes: >
+  
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

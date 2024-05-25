@@ -1,0 +1,15 @@
+vikunja:
+  image: vikunja/vikunja
+  environment:
+    VIKUNJA_SERVICE_JWTSECRET: FERGHJHJGHHFgdsf543545tfgg
+    VIKUNJA_SERVICE_PUBLICURL: http://umbra.local
+    # Note the default path is /app/vikunja/vikunja.db.
+    # This config variable moves it to a different folder so you can use a volume and 
+    # store the database file outside the container so state is persisted even if the container is destroyed.
+    VIKUNJA_DATABASE_PATH: /db/vikunja.db
+  ports:
+    - 3456:3456
+  volumes:
+    - /Container/Vikunja/files:/app/vikunja/files
+    - /Container/Vikunja/db:/db
+  restart: unless-stopped
