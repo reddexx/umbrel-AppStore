@@ -9,7 +9,8 @@ port: 9711
 description: >
   Install Factorio Server with OFSM Webinterface on Umbrel
   This tool runs on a Factorio server and allows management of the Factorio server, saves, mods and many other features.
-  <br><br>Password see you in the first Logs!
+  
+  Password see you in the first start Logs!
 developer: OpenFactorioServerManager
 website: https://github.com/OpenFactorioServerManager
 submitter: Reddexx
