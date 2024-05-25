@@ -7,8 +7,3 @@ services:
     ports:
       - "3030:80"
     restart: on-failure
-    volumes:
-    - ./:/opt/node_app/app:delegated
-    - ./package.json:/opt/node_app/package.json
-    - ./yarn.lock:/opt/node_app/yarn.lock
-    - notused:/opt/node_app/app/node_modules
