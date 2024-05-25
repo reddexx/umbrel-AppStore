@@ -1,7 +1,7 @@
 version: '3'
 service:
   vikunja:
-    image: vikunja/vikunja
+    image: vikunja/vikunja:latest
     environment:
       VIKUNJA_SERVICE_JWTSECRET: FERGHJHJGHHFgdsf543545tfgg
       VIKUNJA_SERVICE_PUBLICURL: http://umbra.local
