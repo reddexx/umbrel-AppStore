@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: reddexx-spotube
+name: spotube
+tagline: 
+icon: https://play-lh.googleusercontent.com/k1DjFUJQmTwKFDQ_bcVHtUQ1oe3xkfTlWBdPQvYWzvsChkvOEJKTh5PsnF_xh-9DWw
+category: Hosting
+version: "1.0.0"
+port: 3000
+description: >-
+  Install Spotube on Umbrell
+Spotube is an open source, cross-platform Spotify client compatible across multiple platforms utilizing Spotify's data API and YouTube, Piped.video or JioSaavn as an audio source, eliminating the need for Spotify Premium
+
+developer: Kingkor Roy Tirtho
+website: https://github.com/KRTirtho/spotube
+submitter: Reddexx
+submission:
+repo:
+support: 
+gallery:
+  - https://github.com/KRTirtho/spotube/raw/master/assets/spotube-screenshot.png
+releaseNotes: >
+  
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
