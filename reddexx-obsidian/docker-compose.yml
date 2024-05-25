@@ -1,0 +1,18 @@
+services:
+  obsidian:
+    image: 'ghcr.io/sytone/obsidian-remote:latest'
+    container_name: obsidian-remote
+    restart: unless-stopped
+    ports:
+      - 9080:9080
+      - 9443:9443
+    volumes:
+      - /Container/obsidian/vaults:/vaults
+      - /Container/obsidian/config:/config
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Berlin
+      - DOCKER_MODS=linuxserver/mods:universal-git
+      - CUSTOM_PORT="9080"
+      - CUSTOM_HTTPS_PORT="9443" 

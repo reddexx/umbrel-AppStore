@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: reddexx-obsidian
+name: Obsidian-Remote
+tagline: 
+icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbqGhq1I5sN63WN75c1AXFgJxaBYMNV6PtQ9kqRuULBA&s
+category: Wiki
+version: "1.0.0"
+port: 9080
+description: >
+  Install Obsidian-Remote on Umbrell
+  Obsidian is the private and flexible writing app that adapts to the way you think
+developer: Obsidian
+website: https://obsidian.md/
+submitter: Reddexx
+submission:
+repo:
+support: 
+gallery:
+  - https://miro.medium.com/v2/resize:fit:720/format:webp/1*M_NNYjMOEyPl0xUfdbQ61Q.png
+  - https://obsidian.md/images/sync-settings.png
+  - https://obsidian.md/images/publish-example-dark.png
+releaseNotes: >
+  
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
