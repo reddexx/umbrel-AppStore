@@ -4,7 +4,7 @@ name: Obsidian-Remote
 tagline: 
 icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbqGhq1I5sN63WN75c1AXFgJxaBYMNV6PtQ9kqRuULBA&s
 category: Wiki
-version: "1.0.1"
+version: "1.0.3"
 port: 9080
 description: >
   Install Obsidian-Remote on Umbrel

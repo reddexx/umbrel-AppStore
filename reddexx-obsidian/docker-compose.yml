@@ -10,8 +10,6 @@ services:
       - /Container/obsidian/vaults:/vaults
       - /Container/obsidian/config:/config
     environment:
-      - PUID=1000
-      - PGID=1000
       - TZ=Europe/Berlin
       - DOCKER_MODS=linuxserver/mods:universal-git
       - CUSTOM_PORT="8080"
