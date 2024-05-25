@@ -6,10 +6,9 @@ icon: https://play-lh.googleusercontent.com/k1DjFUJQmTwKFDQ_bcVHtUQ1oe3xkfTlWBdP
 category: Hosting
 version: "1.0.0"
 port: 3000
-description: >-
+description: >
   Install Spotube on Umbrell
-Spotube is an open source, cross-platform Spotify client compatible across multiple platforms utilizing Spotify's data API and YouTube, Piped.video or JioSaavn as an audio source, eliminating the need for Spotify Premium
-
+  Spotube is an open source, cross-platform Spotify client compatible across multiple platforms utilizing Spotify's data API and YouTube, Piped.video or JioSaavn as an audio source, eliminating the need for Spotify Premium
 developer: Kingkor Roy Tirtho
 website: https://github.com/KRTirtho/spotube
 submitter: Reddexx

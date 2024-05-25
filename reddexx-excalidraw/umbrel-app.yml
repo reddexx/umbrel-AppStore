@@ -6,11 +6,10 @@ icon: https://cdn-1.webcatalog.io/catalog/excalidraw/excalidraw-icon-filled-256.
 category: Hosting
 version: "1.0.0"
 port: 3030
-description: >-
+description: >
   Install Excalidraw on Umbrell
-An open source virtual hand-drawn style whiteboard.
-Collaborative and end-to-end encrypted.
-
+  An open source virtual hand-drawn style whiteboard.
+  Collaborative and end-to-end encrypted.
 developer: Excalidraw
 website: https://github.com/excalidraw/excalidraw
 submitter: Reddexx
