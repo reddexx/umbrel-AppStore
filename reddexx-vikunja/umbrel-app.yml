@@ -7,7 +7,7 @@ category: Wiki
 version: "1.0.0"
 port: 3456
 description: >
-  Install Vikunja on Umbrell
+  Install Vikunja on Umbrel
   The open-source, self-hostable to-do app.
   Organize everything, on all platforms.
 developer: Konrad Langenberg Software

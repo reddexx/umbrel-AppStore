@@ -7,7 +7,7 @@ category: Wiki
 version: "1.0.12"
 port: 4555
 description: >-
-  Install Bookstack on Umbrell
+  Install Bookstack on Umbrel
 
 developer: ssddanbrown
 website: https://bookstack.com

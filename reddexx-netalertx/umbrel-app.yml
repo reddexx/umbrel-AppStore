@@ -7,7 +7,7 @@ category: Monitoring
 version: "1.0.1"
 port: 20211
 description: >-
-  Install NetAlertX on Umbrell
+  Install NetAlertX on Umbrel
   Get visibility of what's going on on your WIFI/LAN network. Schedule scans for devices, port changes and get alerts if unknown devices or changes are found. Write your own Plugins with auto-generated UI and in-build notification system. Build out and easily maintain your network source of truth (NSoT).
 developer: jokob-sk
 website: https://github.com/jokob-sk

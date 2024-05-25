@@ -7,7 +7,7 @@ category: Hosting
 version: "1.0.0"
 port: 3030
 description: >
-  Install Excalidraw on Umbrell
+  Install Excalidraw on Umbrel
   An open source virtual hand-drawn style whiteboard.
   Collaborative and end-to-end encrypted.
 developer: Excalidraw

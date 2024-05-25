@@ -4,10 +4,10 @@ name: Obsidian-Remote
 tagline: 
 icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbqGhq1I5sN63WN75c1AXFgJxaBYMNV6PtQ9kqRuULBA&s
 category: Wiki
-version: "1.0.0"
+version: "1.0.1"
 port: 9080
 description: >
-  Install Obsidian-Remote on Umbrell
+  Install Obsidian-Remote on Umbrel
   Obsidian is the private and flexible writing app that adapts to the way you think
 developer: Obsidian
 website: https://obsidian.md/

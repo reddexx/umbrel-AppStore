@@ -7,7 +7,7 @@ category: Communication
 version: "1.0.1"
 port: 4990
 description: >-
-  Install Teamspeak3 with Webinterface on Umbrell
+  Install Teamspeak3 with Webinterface on Umbrel
 
 developer: Teamspeak
 website: https://teamspeak.com
