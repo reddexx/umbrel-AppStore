@@ -5,7 +5,7 @@ services:
     restart: unless-stopped
     ports:
       - 9080:8080
-      - 9443:9443
+      - 9443:8443
     volumes:
       - /Container/obsidian/vaults:/vaults
       - /Container/obsidian/config:/config
