@@ -4,7 +4,7 @@ name: Vikunja
 tagline: 
 icon: https://pbs.twimg.com/profile_images/1271556216179896330/IwDSeYc4_400x400.jpg
 category: Wiki
-version: "1.0.0"
+version: "1.0.2"
 port: 3456
 description: >
   Install Vikunja on Umbrel
