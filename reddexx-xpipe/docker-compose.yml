@@ -19,4 +19,4 @@ services:
     restart: unless-stopped
 
 volumes:
-  config_data:  # Hier wird das benannte Volume deklariert
+  config_data:  # Hier wird das benannte Volume deklariert.
