@@ -1,0 +1,16 @@
+---
+services:
+  webtop:
+    image: ghcr.io/xpipe-io/xpipe-webtop:latest
+    container_name: xpipe-webtop
+    environment:
+      - SUBFOLDER=/ #optional
+      - CUSTOM_USER=admin
+      - PASSWORD=xpipe4life
+    volumes:
+      - /Container/xpipe/config:/config
+      - /var/run/docker.sock:/var/run/docker.sock #optional
+    ports:
+      - 127.0.0.1:6077:3000
+      - 127.0.0.1:6078:3001
+    restart: unless-stopped
