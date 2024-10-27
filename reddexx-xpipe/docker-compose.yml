@@ -7,10 +7,14 @@ services:
       - SUBFOLDER=/ #optional
       - CUSTOM_USER=admin
       - PASSWORD=xpipe4life
+      - CUSTOM_PORT=6077
+      - CUSTOM_HTTPS_PORT=6078
+      - TITLE="XPIPE Terminal"
+      - START_DOCKER=true
     volumes:
       - /Container/xpipe/config:/config
       - /var/run/docker.sock:/var/run/docker.sock #optional
     ports:
-      - 127.0.0.1:6077:3000
-      - 127.0.0.1:6078:3001
+      - 127.0.0.1:6077:6077
+      - 127.0.0.1:6078:6078
     restart: unless-stopped
