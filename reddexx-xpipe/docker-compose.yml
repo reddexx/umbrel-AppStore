@@ -1,4 +1,3 @@
----
 services:
   webtop:
     image: ghcr.io/xpipe-io/xpipe-webtop:latest
@@ -12,9 +11,12 @@ services:
       - TITLE="XPIPE Terminal"
       - START_DOCKER=true
     volumes:
-      - /Container/xpipe/config:/config
       - /var/run/docker.sock:/var/run/docker.sock #optional
+      - config_data:/config  # Hier wird das neue Volume hinzugefügt
     ports:
       - 127.0.0.1:6077:6077
       - 127.0.0.1:6078:6078
     restart: unless-stopped
+
+volumes:
+  config_data:  # Hier wird das benannte Volume deklariert

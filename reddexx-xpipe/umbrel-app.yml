@@ -4,7 +4,7 @@ name: xpipe
 tagline: 
 icon: https://xpipe.io/favicon.ico
 category: Terminal
-version: "1.0.2"
+version: "1.0.3"
 port: 6077
 description: >
   Install Xpipe on Umbrel
