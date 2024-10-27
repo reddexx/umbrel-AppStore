@@ -3,7 +3,6 @@ services:
     image: ghcr.io/xpipe-io/xpipe-webtop:latest
     container_name: xpipe-webtop
     environment:
-      - SUBFOLDER=/ #optional
       - CUSTOM_USER=admin
       - PASSWORD=xpipe4life
       - CUSTOM_PORT=6077
@@ -14,8 +13,8 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock #optional
       - config_data:/config  # Hier wird das neue Volume hinzugefügt
     ports:
-      - 127.0.0.1:6077:6077
-      - 127.0.0.1:6078:6078
+      - 6077:6077
+      - 6078:6078
     restart: unless-stopped
 
 volumes:
