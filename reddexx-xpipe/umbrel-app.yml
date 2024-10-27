@@ -1,11 +1,11 @@
 manifestVersion: 1
 id: reddexx-xpipe
-name: xpip
+name: xpipe
 tagline: 
 icon: https://xpipe.io/favicon.ico
 category: Terminal
-version: "1.0.0"
-port: 3000
+version: "1.0.1"
+port: 6077
 description: >
   Install Xpipe on Umbrel
   XPipe Webtop is a web-based desktop environment that can be run in a container and accessed from a browser via KasmVNC. developer: Kingkor Roy Tirtho
