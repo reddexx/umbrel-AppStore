@@ -4,7 +4,7 @@ services:
     container_name: xpipe-webtop
     environment:
       - CUSTOM_USER=admin
-      - PASSWORD=xpipe4life
+      - PASSWORD=Password
       - CUSTOM_PORT=6077
       - CUSTOM_HTTPS_PORT=6078
       - TITLE="XPIPE Terminal"
