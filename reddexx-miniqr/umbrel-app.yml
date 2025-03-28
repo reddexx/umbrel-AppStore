@@ -3,7 +3,7 @@ id: reddexx-miniqr
 name: MiniQR
 tagline: 
 icon: https://github.com/lyqht/mini-qr/raw/main/public/presets/padlet.svg
-category: Terminal
+category: other
 version: "1.0.4"
 port: 6077
 description: >
