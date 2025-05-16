@@ -1,13 +1,14 @@
+version: '3.9'
 services:
-  checkcle:
-    image: operacle/checkcle:latest
-    container_name: checkcle
-    restart: unless-stopped
-    ports:
-      - "6597:8090"  # Web Application
-    volumes:
-      - ${APP_DATA_DIR}/checkcle:/app/pb_data  # Ensure persistent data across rebuilds
-    ulimits:
-      nofile:
-        soft: 4096
-        hard: 8192
+    checkcle:
+        image: 'operacle/checkcle:latest'
+        ulimits:
+            nofile:
+                hard: 4096
+                soft: 8192
+        volumes:
+            - ${APP_DATA_DIR}/checkcle:/app/pb_data
+        ports:
+            - '6597:8090'
+        restart: unless-stopped
+        container_name: checkcle
