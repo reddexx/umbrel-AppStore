@@ -8,12 +8,14 @@ version: "1.0.6"
 port: 6595
 description: >
   Install Deemix on Umbrel
-website: https://github.com/lyqht/mini-qr
+website: https://github.com/operacle/checkcle?tab=readme-ov-file
 submitter: Reddexx
 submission:
 repo:
 support: 
 gallery:
+  - https://64.media.tumblr.com/034718255f63050bd761e3ddf2c6ff92/755caaf12da79335-5a/s1280x1920/90fd5c3ff5d03ddb90e5894295785de2e2fc9abd.png
+  - https://i.ytimg.com/vi/sw1b7WL9PAM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCBWSWayz_E3tlH_sNQ5KblqNSLMA
 releaseNotes: >
   
 dependencies: []
