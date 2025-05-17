@@ -3,7 +3,7 @@ services:
   lidarr:
     image: dim145/deemix-server:2024-12-11
     restart: unless-stopped
-    portss
+    ports
       - "6595:6595" # Deemix web UI
     volumes:
       - ${APP_DATA_DIR}/config:/deemix/config
