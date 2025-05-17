@@ -1,10 +1,13 @@
-version: '3.9'
+version: "3"
 services:
-    bambanah:
-        image: 'ghcr.io/bambanah/deemix:latest'
-        ports:
-            - '6595:6595'
-        volumes:
-            - '${APP_DATA_DIR}/data/Deemix:/config'
-            - '${APP_DATA_DIR}/data/Deemix:/downloads'
-        container_name: Deemix
+  lidarr:
+    image: youegraillot/lidarr-on-steroids
+    restart: unless-stopped
+    ports:
+      - "8686:8686" # Lidarr web UI
+      - "6595:6595" # Deemix web UI
+    volumes:
+      - ${APP_DATA_DIR}/config:/config
+      - ${APP_DATA_DIR}/config_deemix:/config_deemix
+      - ${APP_DATA_DIR}/downloads:/downloads
+      - ${APP_DATA_DIR}/music:/music
