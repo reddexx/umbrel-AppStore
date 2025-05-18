@@ -4,7 +4,7 @@ name: MiniQR
 tagline: 
 icon: https://github.com/lyqht/mini-qr/raw/main/public/presets/padlet.svg
 category: other
-version: "1.0.5"
+version: "1.0.6"
 port: 10100
 description: >
   Install MiniQR on Umbrel
