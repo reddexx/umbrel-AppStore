@@ -4,7 +4,7 @@ name: Excalidraw
 tagline: 
 icon: https://cdn-1.webcatalog.io/catalog/excalidraw/excalidraw-icon-filled-256.png?v=1714774298387
 category: Hosting
-version: "1.0.0"
+version: "1.0.3"
 port: 3030
 description: >
   Install Excalidraw on Umbrel

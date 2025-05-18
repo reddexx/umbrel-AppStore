@@ -4,7 +4,7 @@ name: CheckCle
 tagline: 
 icon: https://checkcle.io/uploads/checkcle_logo.png
 category: other
-version: "1.0.1"
+version: "1.0.2"
 port: 6597
 description: >
   Install CheckCle  on Umbrel

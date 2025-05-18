@@ -4,7 +4,7 @@ name: Teamspeak3 Server
 tagline: 
 icon: https://theme.zdassets.com/theme_assets/9496188/a876ae79f06eee3404dcf59a7ad4dd32e8e53d8e.png
 category: Communication
-version: "1.0.1"
+version: "1.0.3"
 port: 4990
 description: >-
   Install Teamspeak3 with Webinterface on Umbrel

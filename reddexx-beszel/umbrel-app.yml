@@ -4,7 +4,7 @@ name: beszel
 tagline: 
 icon: https://i.ytimg.com/vi/Bz7gPYBH0AU/maxresdefault.jpg
 category: Monitoring
-version: "1.0.1"
+version: "1.0.3"
 port: 20115
 description: >-
 
