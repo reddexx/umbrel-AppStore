@@ -3,6 +3,7 @@ services:
   lidarr:
     image: dim145/deemix-server:2024-12-11
     restart: unless-stopped
+    user: "1000"
     environment:
      DEEMIX_SINGLE_USER: true # default: true
      DEEMIX_LOCATION_BASE: /  # default: /
