@@ -6,7 +6,6 @@ services:
     environment:
      DEEMIX_SINGLE_USER: true # default: true
      DEEMIX_LOCATION_BASE: /  # default: /
-     DEEMIX_HOST: 0.0.0.0.    # default: 0.0.0.0
      DEEMIX_PORT: 6595        # default: 6595
     ports:
       - "6595:6595" # Deemix web UI
