@@ -1,6 +1,6 @@
 version: "3"
 services:
-  lidarr:
+  deemix:
     image: dim145/deemix-server:2024-12-11
     restart: unless-stopped
     user: "1000"
