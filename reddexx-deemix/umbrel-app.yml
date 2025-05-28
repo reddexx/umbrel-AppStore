@@ -4,7 +4,7 @@ name: Deemix
 tagline: 
 icon: https://www.sidify.es/images/guide/alternativas-a-deemix.jpg
 category: other
-version: "1.1.2"
+version: "1.1.3"
 port: 6595
 description: >
   Install Deemix on Umbrel
