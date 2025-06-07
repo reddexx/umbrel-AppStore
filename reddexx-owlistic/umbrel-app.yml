@@ -5,7 +5,7 @@ tagline:
 icon: https://owlistic-notes.github.io/owlistic/img/logo/owlistic-w-text.png
 category: Wiki
 version: "1.0.5"
-port: 8222
+port: 4222
 description: >-
   Install Owlistic on Umbrel
   Owlistic started out of a simple need: I have been a long time user the Best Note Taking App that not-so-recently became almost unusable without paid subscription. Also, since I started my self-hosting journey, I was already looking for an alternative that was free and open-source, without loosing the user experience and performance of such Best Note Taking App.
