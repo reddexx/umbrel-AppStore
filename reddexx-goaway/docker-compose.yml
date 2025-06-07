@@ -6,7 +6,6 @@ services:
             - '53:53/tcp'
             - '53:53/udp'
         container_name: goaway
-        restart_policy: always
         cap_add:
             - NET_BIND_SERVICE
             - NET_RAW    
