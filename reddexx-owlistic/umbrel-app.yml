@@ -4,7 +4,7 @@ name: Owlistic
 tagline: 
 icon: https://owlistic-notes.github.io/owlistic/img/logo/owlistic-w-text.png
 category: Wiki
-version: "1.0.5"
+version: "1.0.6"
 port: 4222
 description: >-
   Install Owlistic on Umbrel
