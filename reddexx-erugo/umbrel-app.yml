@@ -5,7 +5,7 @@ tagline:
 icon: https://avatars.githubusercontent.com/u/202945240?s=200&v=4
 category: Hosting
 version: "1.0.0"
-port: 7112
+port: 9998
 description: >-
   Install Erugo on Umbrel
   Erugo is a powerful, self-hosted file-sharing platform built with PHP and Laravel with a Vue.js frontend. It offers secure, customisable file-transfer capabilities through an elegant user interface, giving you complete control over your data while providing a seamless experience for both senders and recipients.
