@@ -4,8 +4,8 @@ name: goaway
 tagline: 
 icon: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/goaway.webp
 category: Security
-version: "1.0.1"
-port: 7112
+version: "1.0.2"
+port: 7417
 description: >-
   Install GoAway on Umbrel
   A lightweight DNS sinkhole for blocking unwanted domains at the network level. Block ads, trackers, and malicious domains before they reach your devices.
