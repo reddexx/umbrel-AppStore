@@ -4,7 +4,7 @@ name: erugo
 tagline: 
 icon: https://avatars.githubusercontent.com/u/202945240?s=200&v=4
 category: Hosting
-version: "1.0.0"
+version: "1.0.1"
 port: 9998
 description: >-
   Install Erugo on Umbrel
