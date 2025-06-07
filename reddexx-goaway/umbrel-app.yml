@@ -11,7 +11,7 @@ description: >-
   A lightweight DNS sinkhole for blocking unwanted domains at the network level. Block ads, trackers, and malicious domains before they reach your devices.
 
 developer: 
-website: https://owlistic-notes.github.io
+website: https://github.com/pommee/goaway
 submitter: Reddexx
 submission:
 repo:
