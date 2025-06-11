@@ -9,8 +9,8 @@ port: 8222
 description: >-
   Install SearXNG on Umbrel
   SearXNG instance in five minutes 
-Developer: jokob-sk
-website: https://github.com/jokob-sk
+Developer: searxng
+website: https://github.com/searxng/searxng
 submitter: Reddexx
 submission:
 repo:
