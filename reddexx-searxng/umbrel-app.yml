@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: reddexx-searxng
+name: SearXNG 
+tagline: 
+icon: https://avatars.githubusercontent.com/u/96159884?v=4
+category: Search Engines
+version: "1.0.1"
+port: 8222
+description: >-
+  Install SearXNG on Umbrel
+  SearXNG instance in five minutes 
+Developer: jokob-sk
+website: https://github.com/jokob-sk
+submitter: Reddexx
+submission:
+repo:
+support: 
+gallery:
+releaseNotes: >
+  
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
