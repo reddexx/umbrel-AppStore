@@ -1,0 +1,33 @@
+manifestVersion: 1
+id: reddexx-owlistic
+name: Owlistic
+tagline: 
+icon: https://owlistic-notes.github.io/owlistic/img/logo/owlistic-w-text.png
+category: Wiki
+version: "1.0.8"
+port: 8222
+description: >-
+  Install Owlistic on Umbrel
+  Owlistic started out of a simple need: I have been a long time user the Best Note Taking App that not-so-recently became almost unusable without paid subscription. Also, since I started my self-hosting journey, I was already looking for an alternative that was free and open-source, without loosing the user experience and performance of such Best Note Taking App.
+
+  So that's where things paired up. I needed a simple-to-use note-taking app with a native desktop/mobile app, with support for inline tasks, that was blazing fast at synchronizing notes and tasks across my devices. And so, I started building Owlistic and took it as my personal deep dive into event-driven system design.
+
+  By contributing Owlistic to the open-source community, I'd like to think I am also giving back to the open-source community from which I have greatly benefit. It's a small way for me to pay it forward and help others build their own solutions, free from the limitations of proprietary software.
+
+  I'm excited to share this project with the community and invite you to join me in making it even better!
+
+developer: 
+website: https://owlistic-notes.github.io
+submitter: Reddexx
+submission:
+repo:
+support: 
+gallery:
+  - https://github.com/owlistic-notes/owlistic/raw/main/docs/website/static/img/screenshots/real_time_updates.gif
+  - https://github.com/owlistic-notes/owlistic/blob/main/docs/website/static/img/screenshots/editor/editor.png?raw=true
+releaseNotes: >
+  
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

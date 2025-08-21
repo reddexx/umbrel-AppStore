@@ -4,11 +4,11 @@ name: Deemix
 tagline: 
 icon: https://www.sidify.es/images/guide/alternativas-a-deemix.jpg
 category: other
-version: "1.1.1"
+version: "1.1.4"
 port: 6595
 description: >
   Install Deemix on Umbrel
-website: https://github.com/operacle/checkcle?tab=readme-ov-file
+website: 
 submitter: Reddexx
 submission:
 repo:

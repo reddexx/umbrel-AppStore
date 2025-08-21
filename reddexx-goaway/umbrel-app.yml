@@ -1,0 +1,31 @@
+manifestVersion: 1
+id: reddexx-goaway
+name: goaway
+tagline: 
+icon: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/goaway.webp
+category: Security
+version: "1.0.3"
+port: 7417
+description: >-
+  Install GoAway on Umbrel
+  A lightweight DNS sinkhole for blocking unwanted domains at the network level. Block ads, trackers, and malicious domains before they reach your devices.
+
+developer: 
+website: https://github.com/pommee/goaway
+submitter: Reddexx
+submission:
+repo:
+support: 
+gallery:
+  - https://github.com/pommee/goaway/raw/main/resources/dashboard.png
+  - https://github.com/pommee/goaway/raw/main/resources/logs.png
+  - https://github.com/pommee/goaway/raw/main/resources/settings.png
+  - https://github.com/pommee/goaway/raw/main/resources/stats.png
+  - https://github.com/pommee/goaway/raw/main/resources/whitelist.png
+  - https://github.com/pommee/goaway/raw/main/resources/blacklist.png
+releaseNotes: >
+  
+dependencies: []
+path: ""
+defaultUsername: "See Logs"
+defaultPassword: ""
