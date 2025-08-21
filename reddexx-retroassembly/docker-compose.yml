@@ -3,5 +3,6 @@ services:
     image: arianrhodsandlot/retroassembly
     container_name: retroassembly
     ports: 8171:8000
-    volumes: ${APP_DATA_DIR}/data:/app/data
+    volumes: 
+      ${APP_DATA_DIR}/data:/app/data
     restart: unless-stopped
