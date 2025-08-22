@@ -2,7 +2,7 @@ manifestVersion: 1
 id: reddexx-excalidraw
 name: Excalidraw
 tagline: 
-icon: https://cdn-1.webcatalog.io/catalog/excalidraw/excalidraw-icon-filled-256.png?v=1714774298387
+icon: https://docs.excalidraw.com/img/logo.svg
 category: Hosting
 version: "1.0.3"
 port: 3030
