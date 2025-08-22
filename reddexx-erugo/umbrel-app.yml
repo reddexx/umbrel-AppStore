@@ -1,28 +1,24 @@
 manifestVersion: 1
-id: reddexx-erugo
-name: erugo
+id: reddexx-moocup
+name: moocup
 tagline: 
-icon: https://avatars.githubusercontent.com/u/202945240?s=200&v=4
-category: Hosting
-version: "1.0.2"
-port: 9998
+icon: https://moocup.jaydip.me/favicon.svg
+category: other
+version: "1.0.0"
+port: 4511
 description: >-
-  Install Erugo on Umbrel
-  Erugo is a powerful, self-hosted file-sharing platform built with PHP and Laravel with a Vue.js frontend. It offers secure, customisable file-transfer capabilities through an elegant user interface, giving you complete control over your data while providing a seamless experience for both senders and recipients.
-
-  Check out a sample share on our demo site at demo.erugo.app/shares/tight-silence-sweet-sea. While uploads are disabled on the demo, you can experience the recipient's view and download the sample file.
-
-developer: 
-website: https://github.com/ErugoOSS/Erugo
+  Install Moocup on Umbrel
+  A visual editor to create stunning screenshots. you can simply drop your screenshot, a base style will be applied.
+  style it however you wish, and export.
+  that's basically it.
+developer: Jaydip Sanghani 
+website: https://github.com/jellydeck/moocup
 submitter: Reddexx
 submission:
 repo:
 support: 
 gallery:
-  - https://github.com/ErugoOSS/Erugo/raw/main/.github/images/screenshots/main-screen-with-files.png
-  - https://github.com/ErugoOSS/Erugo/raw/main/.github/images/screenshots/main-screen-with-password-form.png
-  - https://github.com/ErugoOSS/Erugo/raw/main/.github/images/screenshots/main-screen-with-reverse-share-req.png
-  - https://github.com/ErugoOSS/Erugo/raw/main/.github/images/screenshots/login-screen-with-external-providers.png
+  - https://raw.githubusercontent.com/jellydeck/moocup/main/public/og.webp
 releaseNotes: >
   
 dependencies: []

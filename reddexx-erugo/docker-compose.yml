@@ -1,8 +1,5 @@
 services:
-  app:
-    image: wardy784/erugo:latest
-    restart: unless-stopped
-    volumes:
-      - ${APP_DATA_DIR}/erugo-storage:/var/www/html/storage # Use a dedicated folder
-    ports:
-      - "9998:80"
+    moocup:
+        image: 'jellydeck/moocup:latest'
+        ports:
+            - '4511:80'
