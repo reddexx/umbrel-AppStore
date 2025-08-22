@@ -1,25 +1,26 @@
 manifestVersion: 1
-id: reddexx-deemix
-name: Deemix
+id: reddexx-moocup
+name: moocup
 tagline: 
-icon: https://www.sidify.es/images/guide/alternativas-a-deemix.jpg
+icon: https://moocup.jaydip.me/favicon.svg
 category: other
-version: "1.1.4"
+version: "1.0"
 port: 6595
 description: >
-  Install Deemix on Umbrel
-website: 
+  Install moocup on Umbrel
+
+  A visual editor to create stunning screenshots. you can simply drop your screenshot, a base style will be applied.
+
+  style it however you wish, and export.
+
+  that's basically it.
+website: https://github.com/jellydeck/moocup
 submitter: Reddexx
 submission:
-repo:
+repo: https://github.com/jellydeck/moocup
 support: 
 gallery:
-  - https://64.media.tumblr.com/034718255f63050bd761e3ddf2c6ff92/755caaf12da79335-5a/s1280x1920/90fd5c3ff5d03ddb90e5894295785de2e2fc9abd.png
-  - https://i.ytimg.com/vi/sw1b7WL9PAM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCBWSWayz_E3tlH_sNQ5KblqNSLMA
+  - https://raw.githubusercontent.com/jellydeck/moocup/main/public/og.webp
 releaseNotes: >
-  Deemix is a free and open-source music downloader that allows you to download
-  high-quality music from various sources. It is a powerful tool for music
-  enthusiasts who want to build their own music library.
-
 dependencies: []
 path: ""
