@@ -4,7 +4,7 @@ name: RetroAssembly
 tagline: 
 icon: https://retroassembly.com/assets/logo/logo-512x512.png
 category: other
-version: "1.0.1"
+version: "1.0.2"
 port: 8171
 description: >
   Install RetroAssembly on Umbrel
