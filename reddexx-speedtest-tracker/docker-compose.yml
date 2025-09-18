@@ -11,6 +11,7 @@ services:
             - PGID=1000
             - APP_KEY=blabla
             - DB_CONNECTION=sqlite
+            - APP_DEBUG=true
         volumes:
             - ${APP_DATA_DIR}/config:/config
             - ${APP_DATA_DIR}/keys:/config/keys
