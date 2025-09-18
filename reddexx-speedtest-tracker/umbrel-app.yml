@@ -3,7 +3,7 @@ id: reddexx-speedtest-tracker
 name: Speedtest Tracker
 tagline: 
 icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/speedtest-tracker-logo.png
-category: monitoring
+category: Monitoring
 version: "1.6.6"
 port: 8824
 description: >
