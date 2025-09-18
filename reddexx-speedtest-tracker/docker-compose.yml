@@ -9,7 +9,7 @@ services:
         environment:
             - PUID=1000
             - PGID=1000
-            - APP_KEY=kjSVR3JadKdRnrq3UwEPiJRy6ooKjjzh72hN7mTwartr1DZ6gnNlloyQRf6ydT1p
+            - APP_KEY="kjSVR3JadKdRnrq3UwEPiJRy6ooKjjzh72hN7mTwartr1DZ6gnNlloyQRf6ydT1p"
             - DB_CONNECTION=sqlite
             - APP_DEBUG=true
         volumes:

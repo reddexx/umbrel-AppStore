@@ -4,7 +4,7 @@ name: Speedtest Tracker
 tagline: 
 icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/speedtest-tracker-logo.png
 category: Monitoring
-version: "1.6.6.3"
+version: "1.6.6.4"
 port: 8824
 description: >
   Install Speedtest Tracker on Umbrel
