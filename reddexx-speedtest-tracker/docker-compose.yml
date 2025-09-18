@@ -12,5 +12,5 @@ services:
             - APP_KEY=blabla
             - DB_CONNECTION=sqlite
         volumes:
-            - /Container/Speed/config:/config
-            - /Container/Speed/keys:/config/keys
+            - ${APP_DATA_DIR}/config:/config
+            - ${APP_DATA_DIR}/keys:/config/keys
