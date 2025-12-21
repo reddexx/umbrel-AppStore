@@ -1,13 +1,15 @@
 services:
   mikopbx:
     container_name: "mikopbx"
-    image: "mikopbx/mikopbx:latest"
+    image: "ghcr.io/mikopbx/mikopbx-x86-64"
+    network_mode: "host"
     cap_add:
       - NET_ADMIN
     entrypoint: "/sbin/docker-entrypoint"
+    hostname:  "mikopbx-in-a-docker"
     volumes:
-      - ${APP_DATA_DIR}/mikopbx/cf:/cf
-      - ${APP_DATA_DIR}/mikopbx/storage:/storage
+      - /var/spool/mikopbx/cf:/cf
+      - /var/spool/mikopbx/storage:/storage
     tty: true
     environment:
       - ID_WWW_USER=${ID_WWW_USER}
