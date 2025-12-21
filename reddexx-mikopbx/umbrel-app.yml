@@ -3,7 +3,7 @@ id: mikopbx
 name: mikopbx
 tagline: 
 icon: https://storage.yandexcloud.net/products/f2ea7uokcu9q8kil94av.svg
-category: SIP
+category: Communication
 version: "1.0.0"
 port: 4789
 description: >-
