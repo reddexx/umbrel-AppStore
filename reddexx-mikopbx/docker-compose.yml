@@ -8,8 +8,8 @@ services:
     entrypoint: "/sbin/docker-entrypoint"
     hostname:  "mikopbx-in-a-docker"
     volumes:
-      - /var/spool/mikopbx/cf:/cf
-      - /var/spool/mikopbx/storage:/storage
+      - ${APP_DATA_DIR}/mikopbx/cf:/cf
+      - ${APP_DATA_DIR}/mikopbx/storage:/storage
     tty: true
     environment:
       - ID_WWW_USER=${ID_WWW_USER}
