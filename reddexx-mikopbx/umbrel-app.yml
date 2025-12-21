@@ -23,7 +23,11 @@ repo: https://github.com/mikopbx/Core
 support: 
 gallery:
   - https://github.com/mikopbx/assets/raw/master/img/screenshots/ExtensionsList.png
-  - https://github.com/owlistic-notes/owlistic/blob/main/docs/website/static/img/screenshots/editor/editor.png?raw=true
+  - https://www.mikopbx.com/upload/resize_cache/medialibrary/b99/800_600_1/b992326df04e7c4f6ef60a0b2ba3defd.png
+  - https://www.mikopbx.com/upload/resize_cache/medialibrary/782/800_600_1/78214124a4177527e13ef4fd6448dcd4.png
+  - https://www.mikopbx.com/upload/resize_cache/medialibrary/37e/800_600_1/37e9922975497eac5345544c88c309d4.png
+  - https://www.mikopbx.com/upload/resize_cache/medialibrary/28a/800_600_1/28af810f916b761787e178e65a520688.png
+  - https://www.mikopbx.com/upload/medialibrary/37e/37e9922975497eac5345544c88c309d4.png
 releaseNotes: >
   
 dependencies: []
