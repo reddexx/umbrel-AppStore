@@ -1,7 +1,7 @@
 services:
   mikopbx:
     container_name: "mikopbx"
-    image: "ghcr.io/mikopbx/mikopbx-x86-64"
+    image: "ghcr.io/mikopbx/mikopbx/mikopbx:2024.2.29-dev"
     network_mode: "host"
     cap_add:
       - NET_ADMIN
