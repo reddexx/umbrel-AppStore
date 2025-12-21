@@ -4,7 +4,7 @@ name: mikopbx ARM Edition
 tagline: 
 icon: https://storage.yandexcloud.net/products/f2ea7uokcu9q8kil94av.svg
 category: Communication
-version: "1.0.0"
+version: "1.0.1"
 port: 4789
 description: >-
     MikoPBX - a free, open-source PBX with a friendly interface, based on Asterisk core.
