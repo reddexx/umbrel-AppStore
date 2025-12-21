@@ -5,7 +5,6 @@ services:
     cap_add:
       - NET_ADMIN
     entrypoint: "/sbin/docker-entrypoint"
-    hostname:  "mikopbx-in-a-docker"
     volumes:
       - ${APP_DATA_DIR}/mikopbx/cf:/cf
       - ${APP_DATA_DIR}/mikopbx/storage:/storage
