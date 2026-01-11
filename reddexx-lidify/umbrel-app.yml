@@ -4,8 +4,8 @@ name: lidify
 tagline: 
 icon: https://raw.githubusercontent.com/TheWicklowWolf/Lidify/main/src/static/lidify.png
 category: Music
-version: "1.0.4"
-port: 3187
+version: "1.0.5"
+port: 3030
 description: >-
     A self-hosted, on-demand audio streaming platform that brings the Spotify experience to your personal music library.
     Lidify is built for music lovers who want the convenience of streaming services without sacrificing ownership of their library. Point it at your music collection, and Lidify handles the rest. artist discovery, personalized playlists, podcast subscriptions, and seamless integration with tools you already use like Lidarr and Audiobookshelf.
