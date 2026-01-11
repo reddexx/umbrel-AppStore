@@ -5,6 +5,7 @@ services:
         volumes:
             - '${APP_DATA_DIR}/lidify_data:/data'
             - '${APP_DATA_DIR}/lidify/music:/music'
+            - ${APP_DATA_DIR}/lidify_db:/data/postgres
         ports:
             - '3187:3030'
         container_name: lidify
