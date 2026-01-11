@@ -4,7 +4,7 @@ name: lidify
 tagline: 
 icon: https://raw.githubusercontent.com/TheWicklowWolf/Lidify/main/src/static/lidify.png
 category: Music
-version: "1.0.3"
+version: "1.0.4"
 port: 3187
 description: >-
     A self-hosted, on-demand audio streaming platform that brings the Spotify experience to your personal music library.
