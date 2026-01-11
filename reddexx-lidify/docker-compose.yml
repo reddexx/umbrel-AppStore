@@ -9,7 +9,8 @@ services:
         volumes:
             - '${APP_DATA_DIR}/lidify_data:/data'
             - '${APP_DATA_DIR}/lidify/music:/music'
-            - ${APP_DATA_DIR}/lidify_db:/data/postgres
+            - '${APP_DATA_DIR}/lidify_db:/data/postgres'
+            - '${APP_DATA_DIR}/Redis:/data/redis'
         ports:
             - '3187:3187'
         container_name: lidify
