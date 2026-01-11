@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+    lidify:
+        image: 'chevron7locked/lidify:latest'
+        volumes:
+            - '${APP_DATA_DIR}/lidify_data:/data'
+            - '${APP_DATA_DIR}/lidify/music:/music'
+        ports:
+            - '3187:3030'
+        container_name: lidify

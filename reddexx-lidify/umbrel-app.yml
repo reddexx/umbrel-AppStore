@@ -1,0 +1,28 @@
+manifestVersion: 1
+id: reddexx-lidify
+name: lidify
+tagline: 
+icon: https://raw.githubusercontent.com/TheWicklowWolf/Lidify/main/src/static/lidify.png
+category: Music
+version: "1.0.1"
+port: 3187
+description: >-
+    A self-hosted, on-demand audio streaming platform that brings the Spotify experience to your personal music library.
+    Lidify is built for music lovers who want the convenience of streaming services without sacrificing ownership of their library. Point it at your music collection, and Lidify handles the rest. artist discovery, personalized playlists, podcast subscriptions, and seamless integration with tools you already use like Lidarr and Audiobookshelf.
+developer: https://github.com/Chevron7Locked/lidify/
+website: https://github.com/Chevron7Locked/lidify/
+submitter: Reddexx
+submission:
+repo:
+support: 
+gallery:
+  - https://github.com/Chevron7Locked/lidify/raw/main/assets/screenshots/desktop-home.png
+  - https://github.com/Chevron7Locked/lidify/raw/main/assets/screenshots/desktop-library.png
+  - https://github.com/Chevron7Locked/lidify/raw/main/assets/screenshots/desktop-podcasts.png
+  - https://github.com/Chevron7Locked/lidify/raw/main/assets/screenshots/desktop-audiobooks.png
+  - https://github.com/Chevron7Locked/lidify/raw/main/assets/screenshots/vibe-overlay.png
+  - https://github.com/Chevron7Locked/lidify/raw/main/assets/screenshots/mood-mixer.png
+releaseNotes: >
+  
+dependencies: []
+path: ""
