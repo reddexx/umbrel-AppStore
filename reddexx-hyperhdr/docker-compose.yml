@@ -1,0 +1,18 @@
+services:
+  hyper-hdr:
+    container_name: hyper-hdr
+    hostname: hyper-hdr
+    image: nocturno/hyper-hdr:latest
+    ports:
+      - "9105:80"
+    network_mode: host
+    devices:
+      - /dev/video0:/dev/video0
+    environment:
+      - TZ=Europe/Berlin
+      - PGID=1000
+      - PUID=1000
+
+    volumes:
+      - ${APP_DATA_DIR}/config:/config
+    restart: unless-stopped
