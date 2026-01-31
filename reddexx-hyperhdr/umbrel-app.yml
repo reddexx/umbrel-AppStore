@@ -1,18 +1,13 @@
 manifestVersion: 1
 id: reddexx-hyperhdr
 name: HyperHDR
-tagline: 
+tagline: Open-source ambient lighting
 icon: https://awawa-dev.github.io/hyperhdrlogo.png
 category: Videos & Streaming
-version: "0.5.14"
+version: "0.5.15"
 port: 9105
 description: >-
-  HyperHDR is an open-source ambient lighting software that enhances your viewing experience by synchronizing LED lights with the content displayed on your screen. It supports a wide range of LED hardware and offers advanced features for customization and control.
-  With HyperHDR, users can create immersive lighting effects that react to on-screen colors and movements, making it ideal for home theaters, gaming setups, and entertainment systems.
-  Key features include support for various LED types, real-time color capture, and extensive configuration options
-  to tailor the lighting effects to individual preferences.
-  Whether you're looking to enhance your movie nights or gaming sessions, HyperHDR provides a dynamic and
-  engaging lighting experience.
+  HyperHDR is an open-source ambient lighting software that enhances your viewing experience by synchronizing LED lights with the content displayed on your screen.
 developer: awawa-dev
 website: https://awawa-dev.github.io/
 submitter: Reddexx
@@ -20,8 +15,11 @@ submission:
 repo:
 support: 
 gallery:
-  - https://private-user-images.githubusercontent.com/69086569/265824020-9bc7999d-1515-4a96-ba5e-8a732cf7d8a4.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njk4NzQzNTEsIm5iZiI6MTc2OTg3NDA1MSwicGF0aCI6Ii82OTA4NjU2OS8yNjU4MjQwMjAtOWJjNzk5OWQtMTUxNS00YTk2LWJhNWUtOGE3MzJjZjdkOGE0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTMxVDE1NDA1MVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWFlZjUxYzcxOTQ2MThmNWZmYTM3MjliMTkwN2MzNmEyODU0MDZhODFiNTUzMzU3ZDQwMjEzNWRjNDY3YTA0YjgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.iIeZpMolLjmzgo5cJJV0UF1ijsr9oHeVizzvLa-kutE
+  - https://private-user-images.githubusercontent.com/69086569/265824020-9bc7999d-1515-4a96-ba5e-8a732cf7d8a4.png
 releaseNotes: >
   - Version 21.0.0.0
 dependencies: []
 path: ""
+app_proxy:
+  - port: 80
+    dest: hyper-hdr
