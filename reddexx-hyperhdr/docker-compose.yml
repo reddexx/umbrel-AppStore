@@ -15,4 +15,5 @@ services:
 
     volumes:
       - ${APP_DATA_DIR}/config:/config
+      - ${APP_DATA_DIR}/root:/root/.hyperhdr
     restart: unless-stopped
