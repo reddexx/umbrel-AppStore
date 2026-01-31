@@ -5,7 +5,6 @@ services:
     image: nocturno/hyper-hdr:latest
     ports:
       - "9105:80"
-    network_mode: host
     devices:
       - /dev/video0:/dev/video0
     environment:
