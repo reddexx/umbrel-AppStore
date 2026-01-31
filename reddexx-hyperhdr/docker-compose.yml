@@ -2,12 +2,11 @@ services:
   hyper-hdr:
     container_name: hyper-hdr
     image: gpregger/hyperhdr:latest
-
     ports:
       - '12000:8090'  # WebUI
       - '12444:19444' # JSON Server (remote control)
       - '12400:19400' # Flatbuffers server
-    devices:
+    devices: 
       - /dev/ttyUSB0:/dev/ttyUSB0 
     environment:
       - TZ=Europe/Berlin
