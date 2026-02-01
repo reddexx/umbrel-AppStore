@@ -3,7 +3,7 @@ id: reddexx-changedetectionplus
 name: Changedetection Plus
 tagline: Monitoring
 icon: https://www.drupal.org/files/avatar-256x256.png
-category: Videos & Streaming
+category: Monitoring
 version: "0.1.01"
 port: 8701
 description: >-
