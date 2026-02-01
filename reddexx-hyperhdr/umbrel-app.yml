@@ -4,7 +4,7 @@ name: HyperHDR
 tagline: Open-source ambient lighting
 icon: https://awawa-dev.github.io/hyperhdrlogo.png
 category: Videos & Streaming
-version: "0.5.18"
+version: "0.5.19"
 port: 12000
 description: >-
   HyperHDR is an open-source ambient lighting software that enhances your viewing experience by synchronizing LED lights with the content displayed on your screen.
