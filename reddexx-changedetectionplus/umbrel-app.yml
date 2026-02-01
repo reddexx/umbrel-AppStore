@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: reddexx-changedetectionplus
+name: Changedetection Plus
+tagline: Monitoring
+icon: https://www.drupal.org/files/avatar-256x256.png
+category: Videos & Streaming
+version: "0.1.01"
+port: 8701
+description: >-
+  Changedetection Plus is a web monitoring tool that helps you track changes on websites and get notified when they occur.
+developer: dgtlmoon
+website: https://changedetection.io/
+submitter: Reddexx
+submission:
+repo: https://github.com/dgtlmoon/changedetection.io
+support: 
+gallery:
+  - https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/screenshot.png
+releaseNotes: >
+  - Version 21.0.0.0
+dependencies: []
+path: ""

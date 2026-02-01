@@ -1,0 +1,29 @@
+services:
+  changedetection:
+    image: ghcr.io/dgtlmoon/changedetection.io:latest
+    container_name: changedetection
+    hostname: changedetection
+    volumes:
+      - ${APP_DATA_DIR}/datastore:/datastore
+    ports:
+      - "8701:5000"
+    environment:
+      - LOGGER_LEVEL=DEBUG
+      - PLAYWRIGHT_DRIVER_URL=ws://playwright-chrome:3000
+      - BASE_URL=http://umbrel.local:8701/
+    restart: unless-stopped
+    depends_on:
+      playwright-chrome:
+        condition: service_started
+
+  playwright-chrome:
+    hostname: playwright-chrome
+    image: dgtlmoon/sockpuppetbrowser:latest
+    cap_add:
+      - SYS_ADMIN
+    restart: unless-stopped
+    environment:
+      - SCREEN_WIDTH=1920
+      - SCREEN_HEIGHT=1024
+      - SCREEN_DEPTH=16
+      - MAX_CONCURRENT_CHROME_PROCESSES=10
