@@ -1,7 +1,7 @@
 services:
   hyper-hdr:
     container_name: hyper-hdr
-    image: gpregger/hyperhdr:latest
+    image: nocturno/hyper-hdr:latest
     ports:
       - '12000:8090'  # WebUI
       - '12444:19444' # JSON Server (remote control)
@@ -15,5 +15,4 @@ services:
 
     volumes:
       - ${APP_DATA_DIR}/config:/config
-      - ${APP_DATA_DIR}/root:/root/.hyperhdr
     restart: unless-stopped
