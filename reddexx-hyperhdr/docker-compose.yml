@@ -6,8 +6,6 @@ services:
       - '12000:8090'  # WebUI
       - '12444:19444' # JSON Server (remote control)
       - '12400:19400' # Flatbuffers server
-    devices: 
-      - /dev/wled:/dev/wled
     environment:
       - TZ=Europe/Berlin
       - PGID=1000
