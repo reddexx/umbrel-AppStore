@@ -12,7 +12,7 @@ services:
       - TZ=Europe/Berlin
       - PGID=1000
       - PUID=1000
-
+    privileged: true
     volumes:
       - ${APP_DATA_DIR}/config:/config
     restart: unless-stopped
