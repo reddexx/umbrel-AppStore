@@ -17,6 +17,15 @@ support:
 gallery:
   - https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/screenshot.png
 releaseNotes: >
-  - Version 21.0.0.0
+  - Version 0.52.9
+  
+    - Update messages.po // German "From" by @DominikHerold in #3793
+    - Open github link on new tab by @mstrey in #3791
+    - Update French translation by @sCreami in #3788
+    - Browser page fetching speedup - Element locking was adding up to 1minute page load time, Element locking 'off' by default (so they dont move when the screenshot scroll happens), only lock top viewport elements. Improve logging. by @dgtlmoon in #3796
+    - Make language selection sticky and provide a way to return back to default auto-detect #3792 by @dgtlmoon in #3795
+    - Use credentials to fetch the web manifest by @ianis in #3790
+    - Memory management improvements by @dgtlmoon in #3798
+
 dependencies: []
 path: ""
