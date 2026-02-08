@@ -4,7 +4,7 @@ name: Excalidraw
 tagline: 
 icon: https://docs.excalidraw.com/img/logo.svg
 category: Hosting
-version: "1.0.3"
+version: "1.0.4"
 port: 3030
 description: >
   Install Excalidraw on Umbrel

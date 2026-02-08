@@ -4,7 +4,7 @@ name: RetroAssembly
 tagline: 
 icon: https://retroassembly.com/assets/logo/logo-512x512.png
 category: other
-version: "1.0.2"
+version: "1.0.4"
 port: 8171
 description: >
   Install RetroAssembly on Umbrel
@@ -17,6 +17,7 @@ gallery:
   - https://retroassembly.com/assets/screenshots/library.jpeg
   - https://retroassembly.com/assets/screenshots/platform.jpeg
 releaseNotes: >
+  -Version Release V5
   RetroAssembly is a personal retro game collection cabinet in your browser
 
 dependencies: []

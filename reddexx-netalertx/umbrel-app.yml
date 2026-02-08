@@ -4,7 +4,7 @@ name: NetAlertX (Pi.Alert)
 tagline: 
 icon: https://avatars.githubusercontent.com/u/96159884?v=4
 category: Monitoring
-version: "1.0.2"
+version: "1.0.3"
 port: 20211
 description: >-
   Install NetAlertX on Umbrel

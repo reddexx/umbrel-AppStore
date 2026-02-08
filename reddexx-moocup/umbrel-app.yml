@@ -4,7 +4,7 @@ name: moocup
 tagline: 
 icon: https://moocup.jaydip.me/favicon.svg
 category: other
-version: "1.0"
+version: "1.1"
 port: 7191
 description: >
   Install moocup on Umbrel

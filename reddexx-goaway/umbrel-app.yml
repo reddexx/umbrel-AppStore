@@ -4,7 +4,7 @@ name: goaway
 tagline: 
 icon: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/goaway.webp
 category: Security
-version: "1.0.3"
+version: "1.0.4"
 port: 7417
 description: >-
   Install GoAway on Umbrel
