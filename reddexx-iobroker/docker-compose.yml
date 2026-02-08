@@ -1,0 +1,12 @@
+services:
+  iobroker:
+    container_name: iobroker
+    image: buanet/iobroker
+    hostname: iobroker
+    restart: always
+    ports:
+      - "7188:8081"
+    volumes:
+      - ${APP_DATA_DIR}/data/iobrokerdata:/opt/iobroker
+    environment:
+      - TZ=Europe/Berlin
