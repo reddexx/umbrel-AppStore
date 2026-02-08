@@ -6,6 +6,8 @@ services:
     restart: unless-stopped
     environment:
       XYOPS_xysat_local: "true"
+      XYOPS_masters: umbrel.local
+      XYOPS_port: 5522
       TZ: Europe/Berlin
     volumes:
       - xy-data:/opt/xyops/data
