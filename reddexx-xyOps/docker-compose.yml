@@ -1,5 +1,5 @@
 services:
-  xyops01:
+  xyops:
     image: ghcr.io/pixlcore/xyops:latest
     container_name: xyops01
     hostname: xyops01
