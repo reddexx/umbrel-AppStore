@@ -4,7 +4,7 @@ name: xyOps
 tagline: Automation
 icon: https://github.com/pixlcore/xyops/blob/main/htdocs/images/logo-192.png?raw=true
 category: Automation
-version: "0.1.2"
+version: "0.1.5"
 port: 5522
 description: >-
   xyOps is a home automation system that allows you to control and automate various devices and services in your home. It provides a user-friendly interface and supports a wide range of integrations, making it easy to create custom automation rules and routines.
