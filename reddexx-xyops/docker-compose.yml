@@ -2,6 +2,7 @@ services:
   xyops:
     image: ghcr.io/pixlcore/xyops:latest
     container_name: xyops
+    hostname: umbrel.local
     init: true
     restart: unless-stopped
     environment:
