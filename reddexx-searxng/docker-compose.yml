@@ -1,0 +1,10 @@
+services:
+    searxng:
+        image: searxng/searxng
+        environment:
+            - INSTANCE_NAME=umbrel
+            - 'BASE_URL=http://umbrel.local:$PORT/'
+        volumes:
+            - '${PWD}/searxng:/etc/searxng'
+        ports:
+            - '${PORT}:7147'

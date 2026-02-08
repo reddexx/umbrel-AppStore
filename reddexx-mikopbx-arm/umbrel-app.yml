@@ -1,0 +1,36 @@
+manifestVersion: 1
+id: reddexx-mikopbx-arm
+name: mikopbx ARM Edition
+tagline: 
+icon: https://storage.yandexcloud.net/products/f2ea7uokcu9q8kil94av.svg
+category: Communication
+version: "1.0.2"
+port: 4789
+description: >-
+    MikoPBX - a free, open-source PBX with a friendly interface, based on Asterisk core.
+    MikoPBX is an open-source GUI (Graphical User Interface) that controls and manages Asterisk (PBX). MikoPBX is licensed under the GPL. It is a fully modular GUI for Asterisk written in PHP and JavaScript, meaning you can simply write any module you can think of and distribute it free of cost to your clients so that they can take advantage of beneficial features in Asterisk. The released container includes the Linux operating system and all necessary services like Asterisk, Nginx, PHP-FPM, iptables, Redis, etc.
+
+    MikoPBX is a full-featured phone solution with top performance levels, high stability, and rich functionality. You can install MikoPBX on-premise (hardware installation) or in any type of cloud service (Google Cloud, Amazon Cloud Solution, Microsoft Azure, etc.).
+
+    The system features an easy and convenient web interface, call recording, conference calls, voice mail, call transfers and pickup, call queues, interactive voice response (IVR) menus, inbound and outbound call rules. Additionally, it includes a holidays and night-time call switcher. MikoPBX also offers a custom call-flow programming module and a marketplace with paid and free extensions.
+
+    All general business functionality is absolutely free forever!
+developer: https://github.com/mikopbx/Core
+website: https://github.com/mikopbx/Core
+submitter: Reddexx
+submission:
+repo:
+support: 
+gallery:
+  - https://github.com/mikopbx/assets/raw/master/img/screenshots/ExtensionsList.png
+  - https://www.mikopbx.com/upload/resize_cache/medialibrary/b99/800_600_1/b992326df04e7c4f6ef60a0b2ba3defd.png
+  - https://www.mikopbx.com/upload/resize_cache/medialibrary/782/800_600_1/78214124a4177527e13ef4fd6448dcd4.png
+  - https://www.mikopbx.com/upload/resize_cache/medialibrary/37e/800_600_1/37e9922975497eac5345544c88c309d4.png
+  - https://www.mikopbx.com/upload/resize_cache/medialibrary/28a/800_600_1/28af810f916b761787e178e65a520688.png
+  - https://www.mikopbx.com/upload/medialibrary/37e/37e9922975497eac5345544c88c309d4.png
+releaseNotes: >
+  
+dependencies: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: "admin"

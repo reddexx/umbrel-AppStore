@@ -1,0 +1,17 @@
+version: "2"
+services:
+    netalertx:
+      container_name: NetAlertX
+      hostname: NetAlertX
+      privileged: true
+      # use the below line if you want to test the latest dev image
+      # image: "jokobsk/netalertx-dev:latest" 
+      image: jokobsk/netalertx:latest
+      environment:
+        - TZ=Europe/Berlin
+        - port=20211
+      restart: always
+      volumes:
+        - /netxdb:/app/db
+        - /netxconfig:/app/config
+      network_mode: host

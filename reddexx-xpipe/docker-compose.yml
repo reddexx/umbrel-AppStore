@@ -1,0 +1,21 @@
+services:
+  webtop:
+    image: ghcr.io/xpipe-io/xpipe-webtop:latest
+    container_name: xpipe-webtop
+    environment:
+      - CUSTOM_USER=admin
+      - PASSWORD=Password
+      - CUSTOM_PORT=6077
+      - CUSTOM_HTTPS_PORT=6078
+      - TITLE="XPIPE Terminal"
+      - START_DOCKER=true
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock #optional
+      - config_data:/config  # Hier wird das neue Volume hinzugefügt
+    ports:
+      - 6077:6077
+      - 6078:6078
+    restart: unless-stopped
+
+volumes:
+  config_data:  # Hier wird das benannte Volume deklariert.

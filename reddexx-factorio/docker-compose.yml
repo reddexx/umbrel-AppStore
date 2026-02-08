@@ -1,0 +1,18 @@
+version: "3"
+services:
+  factorio-server-manager:
+    image: "ofsm/ofsm:latest"
+    container_name: "factorio-server-manager"
+    restart: "unless-stopped"
+    environment:
+      - "FACTORIO_VERSION=stable"
+      - "RCON_PASS"
+    ports:
+      - "9711:80"
+      - "34197:34197/udp"
+    volumes:
+      - "/Container/fsm-data:/opt/fsm-data"
+      - "/Container/factorio-data/saves:/opt/factorio/saves"
+      - "/Container/factorio-data/mods:/opt/factorio/mods"
+      - "/Container/factorio-data/config:/opt/factorio/config"
+      - "/Container/factorio-data/mod_packs:/opt/fsm/mod_packs"

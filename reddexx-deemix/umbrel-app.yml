@@ -1,0 +1,25 @@
+manifestVersion: 1
+id: reddexx-deemix
+name: Deemix
+tagline: 
+icon: https://www.sidify.es/images/guide/alternativas-a-deemix.jpg
+category: other
+version: "1.1.4"
+port: 6595
+description: >
+  Install Deemix on Umbrel
+website: 
+submitter: Reddexx
+submission:
+repo:
+support: 
+gallery:
+  - https://64.media.tumblr.com/034718255f63050bd761e3ddf2c6ff92/755caaf12da79335-5a/s1280x1920/90fd5c3ff5d03ddb90e5894295785de2e2fc9abd.png
+  - https://i.ytimg.com/vi/sw1b7WL9PAM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCBWSWayz_E3tlH_sNQ5KblqNSLMA
+releaseNotes: >
+  Deemix is a free and open-source music downloader that allows you to download
+  high-quality music from various sources. It is a powerful tool for music
+  enthusiasts who want to build their own music library.
+
+dependencies: []
+path: ""

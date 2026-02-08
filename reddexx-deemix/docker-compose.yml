@@ -1,0 +1,14 @@
+version: "3"
+services:
+  deemix:
+    image: dim145/deemix-server:2024-12-11
+    restart: unless-stopped
+    environment:
+     DEEMIX_SINGLE_USER: true # default: true
+     DEEMIX_LOCATION_BASE: /  # default: /
+     DEEMIX_PORT: 6595        # default: 6595
+    ports:
+      - "6595:6595" # Deemix web UI
+    volumes:
+      - ${APP_DATA_DIR}/config:/deemix/config
+      - ${APP_DATA_DIR}/downloads:/downloads

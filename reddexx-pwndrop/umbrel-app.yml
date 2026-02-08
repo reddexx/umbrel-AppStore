@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: reddexx-pwndrop
+name: PWNDrop
+tagline: 
+icon: https://cdn.cyberpunk.rs/wp-content/uploads/2020/05/pwndrop-logo.jpg
+category: Hosting
+version: "1.0.4"
+port: 20111
+description: >-
+  Install PWNDrop on Umbrel
+  pwndrop is a self-deployable file hosting service for sending out red teaming payloads or securely sharing your private files over HTTP and WebDAV.
+
+developer: Kuba Gretzky
+website: https://breakdev.org/pwndrop/
+submitter: Reddexx
+submission:
+repo:
+support: 
+gallery:
+  - https://breakdev.org/content/images/size/w2000/2020/04/pwndrop-blog.jpg
+  - https://raw.githubusercontent.com/kgretzky/pwndrop/master/media/demo1.gif
+releaseNotes: >
+  
+dependencies: []
+path: "/pwndrop"
+defaultUsername: ""
+defaultPassword: ""

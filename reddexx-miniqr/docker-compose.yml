@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  mini-qr:
+    image: ghcr.io/lyqht/mini-qr:latest
+    container_name: mini-qr
+    ports:
+      - 10100:8080
+    restart: unless-stopped

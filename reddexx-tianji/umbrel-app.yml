@@ -1,0 +1,28 @@
+manifestVersion: 1
+id: reddexx-tianji
+name: Tianji
+tagline: 
+icon: https://github.com/msgbyte/tianji/raw/master/website/static/img/logo.svg
+category: Monitoring
+version: "1.0.4"
+port: 20110
+description: >-
+  Install Tianji on Umbrel
+  During our observations of the website. We often need to use multiple applications together. For example, we need analysis tools such as GA/umami to check pv/uv and the number of visits to each page, we need an uptime monitor to check the network quality and connectivity of the server, and we need to use prometheus to obtain the status reported by the server to check the quality of the server. In addition, if we develop an application that allows open source deployment, we often need a telemetry system to help us collect the simplest information about other people's deployment situations.
+
+developer: MsgByte
+website: https://tianji.msgbyte.com/
+submitter: Reddexx
+submission:
+repo:
+support: 
+gallery:
+  - https://github.com/msgbyte/tianji/raw/master/website/static/img/preview1.png
+  - https://github.com/msgbyte/tianji/raw/master/website/static/img/preview2.png
+  - https://github.com/msgbyte/tianji/raw/master/website/static/img/preview3.png
+releaseNotes: >
+  
+dependencies: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: "admin"

@@ -1,0 +1,5 @@
+services:
+    moocup:
+        image: 'jellydeck/moocup:latest'
+        ports:
+            - '7191:80'

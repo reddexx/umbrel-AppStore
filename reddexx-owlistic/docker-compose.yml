@@ -1,0 +1,51 @@
+services:
+  owlistic:
+    image: ghcr.io/owlistic-notes/owlistic:latest
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+      - nats
+    environment:
+      - APP_ORIGINS=http://owlistic*,http://owlistic-app*
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_USER=admin
+      - DB_PASSWORD=admin
+      - DB_NAME=postgres
+      - BROKER_ADDRESS=nats:4222
+
+  owlistic-app:
+    image: ghcr.io/owlistic-notes/owlistic-app:latest
+    ports:
+      - "8222:80"
+    depends_on:
+      - owlistic
+
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  nats:
+    image: nats
+    command:
+      - --http_port
+      - "8222"
+      - -js
+      - -sd
+      - /var/lib/nats/data
+    ports:
+     - "4222:4222"
+     - "8222:8222"
+    volumes:
+      - nats_data:/var/lib/nats/data
+
+volumes:
+  postgres_data:
+  nats_data:

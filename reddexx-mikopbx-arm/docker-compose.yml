@@ -1,0 +1,24 @@
+services:
+  mikopbx:
+    container_name: "mikopbx"
+    image: "mikopbx/mikopbx:2024.2.29-dev"
+    network_mode: "host"
+    cap_add:
+      - NET_ADMIN
+    entrypoint: "/sbin/docker-entrypoint"
+    hostname:  "mikopbx-in-a-docker"
+    volumes:
+      - ${APP_DATA_DIR}/mikopbx/cf:/cf
+      - ${APP_DATA_DIR}/mikopbx/storage:/storage
+    tty: true
+    environment:
+      - ID_WWW_USER=${ID_WWW_USER}
+      - ID_WWW_GROUP=${ID_WWW_GROUP}
+      # Change the station name through environment variables
+      - PBX_NAME=MikoPBX
+      # Change the default SSH port to 23
+      - SSH_PORT=23
+      # Change the default WEB port to 8080
+      - WEB_PORT=4789
+      # Change the default WEB HTTPS port to 8443
+      - WEB_HTTPS_PORT=4790

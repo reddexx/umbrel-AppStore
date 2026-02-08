@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: reddexx-excalidraw
+name: Excalidraw
+tagline: 
+icon: https://docs.excalidraw.com/img/logo.svg
+category: Hosting
+version: "1.0.4"
+port: 3030
+description: >
+  Install Excalidraw on Umbrel
+  An open source virtual hand-drawn style whiteboard.
+  Collaborative and end-to-end encrypted.
+developer: Excalidraw
+website: https://github.com/excalidraw/excalidraw
+submitter: Reddexx
+submission:
+repo:
+support: 
+gallery:
+  - https://camo.githubusercontent.com/ddb3b5442d70e4dc28bf57c16f772be3ebe1ac3768ffbacaca3606013bf696a4/68747470733a2f2f657863616c69647261772e6e7963332e63646e2e6469676974616c6f6365616e7370616365732e636f6d2f67697468756225324670726f647563745f73686f77636173652e706e67
+releaseNotes: >
+  
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

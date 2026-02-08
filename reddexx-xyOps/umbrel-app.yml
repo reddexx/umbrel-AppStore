@@ -1,0 +1,33 @@
+manifestVersion: 1
+id: reddexx-xyops
+name: xyOps
+tagline: Automation
+icon: https://github.com/pixlcore/xyops/blob/main/htdocs/images/logo-192.png?raw=true
+category: Automation
+version: "0.1.1"
+port: 5522
+description: >-
+  xyOps is a home automation system that allows you to control and automate various devices and services in your home. It provides a user-friendly interface and supports a wide range of integrations, making it easy to create custom automation rules and routines.
+developer: PixlCore
+website: https://xyops.io/
+submitter: Reddexx
+submission:
+repo:
+support: 
+gallery:
+  - https://private-user-images.githubusercontent.com/69086569/265824020-9bc7999d-1515-4a96-ba5e-8a732cf7d8a4.png
+releaseNotes: >
+  - Version 0.9.61:
+  
+    Job Detail View Improvements: Configurable max output size, and lock job final output viewer to 80% window height with overflow scroll. Fixes #125.
+    Bug Fix: Skip Upcoming Job for workflows was failing to create a blackout node on the map. Fixes #127.
+    System Upgrade DIalogs: Include links to xyOps / xySat changelogs. Fixes #124.
+    Feature: Show IDs for plugin and event params in tables. Adjust margins a bit to compensate. Fixes #123.
+    Events: Typo fix in comment
+    Bug Fix / Feature: Prevent unknown tag from being added to jobs, and log warning in job meta log. Also, allow tags to be specified by title (exact match only). Fixes #122.
+    CSS: Fix coloring of HR line breaks in markdown documents.
+
+dependencies: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: "admin"

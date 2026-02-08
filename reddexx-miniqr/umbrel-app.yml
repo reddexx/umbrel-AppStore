@@ -1,0 +1,21 @@
+manifestVersion: 1
+id: reddexx-miniqr
+name: MiniQR
+tagline: 
+icon: https://github.com/lyqht/mini-qr/raw/main/public/presets/padlet.svg
+category: other
+version: "1.0.7"
+port: 10100
+description: >
+  Install MiniQR on Umbrel
+website: https://github.com/lyqht/mini-qr
+submitter: Reddexx
+submission:
+repo:
+support: 
+gallery:
+  - https://i.gzn.jp/img/2024/11/04/qr-code-generator-miniqr/00.png
+releaseNotes: >
+  
+dependencies: []
+path: ""

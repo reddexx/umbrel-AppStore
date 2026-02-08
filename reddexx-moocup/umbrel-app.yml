@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: reddexx-moocup
+name: moocup
+tagline: 
+icon: https://moocup.jaydip.me/favicon.svg
+category: other
+version: "1.1"
+port: 7191
+description: >
+  Install moocup on Umbrel
+
+  A visual editor to create stunning screenshots. you can simply drop your screenshot, a base style will be applied.
+
+  style it however you wish, and export.
+
+  that's basically it.
+website: https://github.com/jellydeck/moocup
+submitter: Reddexx
+submission:
+repo: https://github.com/jellydeck/moocup
+support: 
+gallery:
+  - https://raw.githubusercontent.com/jellydeck/moocup/main/public/og.webp
+releaseNotes: >
+dependencies: []
+path: ""

@@ -1,0 +1,12 @@
+services:
+    goaway:
+        image: 'pommee/goaway:latest'
+        ports:
+            - '7417:8080'
+            - '53:53/tcp'
+            - '53:53/udp'
+        container_name: goaway
+        cap_add:
+            - NET_BIND_SERVICE
+            - NET_RAW    
+    

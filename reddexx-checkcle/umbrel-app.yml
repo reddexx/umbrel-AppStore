@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: reddexx-checkcle
+name: CheckCle 
+tagline: 
+icon: https://checkcle.io/uploads/checkcle_logo.png
+category: other
+version: "1.0.2"
+port: 6597
+description: >
+  Install CheckCle  on Umbrel
+website: https://github.com/operacle/checkcle?tab=readme-ov-file
+submitter: Reddexx
+submission:
+repo:
+support: 
+gallery:
+  - https://pub-4a4062303020445f8f289a2fee84f9e8.r2.dev/images/checkcle-collapse-black.png
+  - https://camo.githubusercontent.com/2f3e2a869c658ad7b94bba0e1bcf4a5ee04f3ef899bb8f00ee1dba98d24d05d7/68747470733a2f2f7075622d34613430363233303330323034343566386632383961326665653834663965382e72322e6465762f696d616765732f636865636b636c652d626c61636b2e706e67
+  - https://camo.githubusercontent.com/9204b4e06e23ba399995c78dcdb5f35fc00108129ad858e89a08c4f9e78f1f7b/68747470733a2f2f7075622d34613430363233303330323034343566386632383961326665653834663965382e72322e6465762f696d616765732f636865636b636c652d64657461696c706167652e706e67
+releaseNotes: >
+  
+dependencies: []
+path: ""

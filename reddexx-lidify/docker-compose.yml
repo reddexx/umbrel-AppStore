@@ -1,0 +1,16 @@
+version: '3.9'
+services:
+    lidify:
+        image: 'chevron7locked/lidify:latest'
+        environment:
+            - TZ=Europe/Berlin
+            - Port=3030
+            - LIDIFY_CALLBACK_URL=http://umbrel.local:3187
+        volumes:
+            - '${APP_DATA_DIR}/lidify_data:/data'
+            - '${APP_DATA_DIR}/lidify/music:/music'
+            - '${APP_DATA_DIR}/lidify_db:/data/postgres'
+            - '${APP_DATA_DIR}/Redis:/data/redis'
+        ports:
+            - '3030:3030'
+        container_name: lidify

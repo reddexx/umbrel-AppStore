@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  excalidraw:
+    container_name: excalidraw
+    image: excalidraw/excalidraw:latest
+    ports:
+      - "3030:80"
+    restart: on-failure

@@ -1,17 +1,16 @@
-version: '2'
 services:
   mysql:
-    image: mysql:8.3
+    image: mysql:9.5
     environment:
     - MYSQL_ROOT_PASSWORD=secret
     - MYSQL_DATABASE=bookstack
     - MYSQL_USER=bookstack
     - MYSQL_PASSWORD=secret
     volumes:
-    - mysql-data:/var/lib/mysql
+    - ${APP_DATA_DIR}/mysql-data:/var/lib/mysql
 
   bookstack:
-    image: solidnerd/bookstack:latest
+    image: solidnerd/bookstack:25.12.3
     depends_on:
     - mysql
     environment:
@@ -26,12 +25,7 @@ services:
     # Can run `php artisan key:generate` to generate a key
     - APP_KEY=SomeRandomStringWith32Characters
     volumes:
-    - uploads:/var/www/bookstack/public/uploads
-    - storage-uploads:/var/www/bookstack/storage/uploads
+    - ${APP_DATA_DIR}/uploads:/var/www/bookstack/public/uploads
+    - ${APP_DATA_DIR}/storage-uploads:/var/www/bookstack/storage/uploads
     ports:
     - "4555:8080"
-
-volumes:
- mysql-data:
- uploads:
- storage-uploads:

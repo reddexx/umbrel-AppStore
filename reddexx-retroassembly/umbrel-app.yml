@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: reddexx-retroassembly
+name: RetroAssembly
+tagline: 
+icon: https://retroassembly.com/assets/logo/logo-512x512.png
+category: other
+version: "1.0.4"
+port: 8171
+description: >
+  Install RetroAssembly on Umbrel
+website: https://retroassembly.com/
+submitter: arianrhodsandlot
+submission: https://github.com/arianrhodsandlot/retroassembly
+repo: arianrhodsandlot/retroassembly
+support: https://retroassembly.com/support
+gallery:
+  - https://retroassembly.com/assets/screenshots/library.jpeg
+  - https://retroassembly.com/assets/screenshots/platform.jpeg
+releaseNotes: >
+  -Version Release V5
+  RetroAssembly is a personal retro game collection cabinet in your browser
+
+dependencies: []
+path: ""
