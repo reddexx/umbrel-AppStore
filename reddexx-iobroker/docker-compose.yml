@@ -2,7 +2,7 @@ services:
   iobroker:
     container_name: iobroker
     image: buanet/iobroker
-    hostname: iobroker
+    hostname: umbrel
     restart: always
     ports:
       - "7188:8081"
