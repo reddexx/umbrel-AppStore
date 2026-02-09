@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: reddexx-upsnap
+name: UPSnap
+tagline: WOL Tool
+icon: https://github.com/seriousm4x/UpSnap/raw/master/frontend/static/gopher.svg
+category: Tools
+version: "5.2.7"
+port: 8990
+description: >-
+  UPSnap is a Wake-on-LAN (WOL) tool that allows you to wake up devices on your local network. It provides a simple interface to send WOL packets to devices that support it.
+developer: seriousm4x
+website: https://github.com/seriousm4x/UpSnap?ref=selfh.st
+submitter: Reddexx
+submission:
+repo:
+support: 
+gallery:
+  - https://github.com/seriousm4x/UpSnap/raw/master/assets/home-light.webp
+  - https://github.com/seriousm4x/UpSnap/raw/master/assets/home-dark.webp
+  - https://github.com/seriousm4x/UpSnap/raw/master/assets/account-light.webp
+  - https://github.com/seriousm4x/UpSnap/raw/master/assets/account-dark.webp
+  - https://github.com/seriousm4x/UpSnap/raw/master/assets/new-manual-light.webp
+  - https://github.com/seriousm4x/UpSnap/raw/master/assets/new-manual-dark.webp
+  - https://github.com/seriousm4x/UpSnap/raw/master/assets/users-light.webp
+  - https://github.com/seriousm4x/UpSnap/raw/master/assets/users-dark.webp
+releaseNotes: >
+  - Initial release of UPSnap for Umbrel. This version includes the latest features and improvements from UPSnap 5.2.7, providing users with a powerful tool for waking up devices on their local network using Wake-on-LAN (WOL) technology.
+    
+dependencies: []
+path: ""
