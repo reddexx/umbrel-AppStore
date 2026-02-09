@@ -3,7 +3,7 @@ id: reddexx-miniqr
 name: MiniQR
 tagline: 
 icon: https://github.com/lyqht/mini-qr/raw/main/public/presets/padlet.svg
-category: other
+category: Tools
 version: "1.0.7"
 port: 10100
 description: >
