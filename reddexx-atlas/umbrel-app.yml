@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: reddexx-atlas
+name: Atlas
+tagline: Network Scanner
+icon: https://raw.githubusercontent.com/karam-ajaj/atlas/520ee0738cfc53be2fdd523f183437d68519ff8d/data/react-ui/src/assests/icon.svg
+category: Monitoring
+version: "0.1.8"
+port: 8114
+description: >-
+  Atlas is a network scanner and monitoring tool that provides insights into your network's devices and their interactions. It offers features such as device discovery, network mapping, and real-time monitoring, allowing you to keep track of your network's health and performance.
+developer: Karam Ajaj
+website: https://github.com/karam-ajaj/atlas
+submitter: Reddexx
+submission:
+repo:
+support: 
+gallery:
+  - https://github.com/karam-ajaj/atlas/raw/main/screenshots/dashboard_big_c.png
+  - https://github.com/karam-ajaj/atlas/raw/main/screenshots/dashboard_big_h.png
+  - https://github.com/karam-ajaj/atlas/raw/main/screenshots/table_big.png
+  - https://github.com/karam-ajaj/atlas/raw/main/screenshots/logs_big.png
+releaseNotes: >
+  - Initial release of Atlas for Umbrel. This version includes the latest features and improvements from Atlas 0.1.8, providing users with a powerful tool for network scanning and monitoring on their Umbrel devices.
+
+    
+dependencies: []
+path: ""
