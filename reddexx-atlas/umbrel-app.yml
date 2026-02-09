@@ -4,7 +4,7 @@ name: Atlas
 tagline: Network Scanner
 icon: https://raw.githubusercontent.com/karam-ajaj/atlas/520ee0738cfc53be2fdd523f183437d68519ff8d/data/react-ui/src/assests/icon.svg
 category: Monitoring
-version: "0.1.8"
+version: "0.1.9"
 port: 8114
 description: >-
   Atlas is a network scanner and monitoring tool that provides insights into your network's devices and their interactions. It offers features such as device discovery, network mapping, and real-time monitoring, allowing you to keep track of your network's health and performance.

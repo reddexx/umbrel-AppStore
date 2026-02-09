@@ -12,13 +12,13 @@ services:
     # Hinweis: Im network_mode: host ist die 'ports'-Sektion rein informativ.
     # Die tatsächliche Steuerung erfolgt über die ENV-Variablen unten.
     ports:
-      - "8114:8884"
-      - "8115:8885"
+      - "8114:8114"
+      - "8115:8115"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     environment:
-      - ATLAS_UI_PORT=8884
-      - ATLAS_API_PORT=8885
+      - ATLAS_UI_PORT=8114
+      - ATLAS_API_PORT=8115
       - FASTSCAN_INTERVAL=3600
       - DOCKERSCAN_INTERVAL=3600
       - DEEPSCAN_INTERVAL=7200
