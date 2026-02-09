@@ -10,4 +10,4 @@ services:
     environment:
       - WEB_PORT=10911
       - WEB_USERNAME=admin
-      - WEB_PASSWORD=admin
+      - WEB_PASSWORD=admin_peanut

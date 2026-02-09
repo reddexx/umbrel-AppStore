@@ -4,7 +4,7 @@ name: PeaNUT
 tagline: UPS Monitoring
 icon: https://raw.githubusercontent.com/Brandawg93/PeaNUT/main/src/app/icon.svg
 category: Monitoring
-version: "5.22.0"
+version: "5.22.0.1"
 port: 10911
 description: >-
   PeaNUT is a UPS monitoring system that allows you to monitor and manage your Uninterruptible Power Supply (UPS) devices. It provides real-time status updates, alerts, and control capabilities for your UPS devices.
