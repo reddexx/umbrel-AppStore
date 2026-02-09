@@ -1,0 +1,35 @@
+manifestVersion: 1
+id: reddexx-peanut
+name: PeaNUT
+tagline: UPS Monitoring
+icon: https://raw.githubusercontent.com/Brandawg93/PeaNUT/main/src/app/icon.svg
+category: Monitoring
+version: "5.22.0"
+port: 10911
+description: >-
+  PeaNUT is a UPS monitoring system that allows you to monitor and manage your Uninterruptible Power Supply (UPS) devices. It provides real-time status updates, alerts, and control capabilities for your UPS devices.
+developer: Brandawg93
+website: https://github.com/Brandawg93/PeaNUT
+submitter: Reddexx
+submission:
+repo:
+support: 
+gallery:
+  - https://raw.githubusercontent.com/Brandawg93/PeaNUT/main/images/table.png
+  - https://raw.githubusercontent.com/Brandawg93/PeaNUT/main/images/charts.png
+releaseNotes: >
+  - Version 0.9.61:
+  
+    Job Detail View Improvements: Configurable max output size, and lock job final output viewer to 80% window height with overflow scroll. Fixes #125.
+    Bug Fix: Skip Upcoming Job for workflows was failing to create a blackout node on the map. Fixes #127.
+    System Upgrade DIalogs: Include links to xyOps / xySat changelogs. Fixes #124.
+    Feature: Show IDs for plugin and event params in tables. Adjust margins a bit to compensate. Fixes #123.
+    Events: Typo fix in comment
+    Bug Fix / Feature: Prevent unknown tag from being added to jobs, and log warning in job meta log. Also, allow tags to be specified by title (exact match only). Fixes #122.
+    CSS: Fix coloring of HR line breaks in markdown documents.
+
+    
+dependencies: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: "admin"

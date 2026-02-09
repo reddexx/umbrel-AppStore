@@ -1,0 +1,13 @@
+services:
+  peanut:
+    image: brandawg93/peanut:latest
+    container_name: PeaNUT
+    restart: unless-stopped
+    volumes:
+      - ${APP_DATA_DIR}/config:/config
+    ports:
+      - 10911:10911
+    environment:
+      - WEB_PORT=10911
+      - WEB_USERNAME=admin
+      - WEB_PASSWORD=admin
