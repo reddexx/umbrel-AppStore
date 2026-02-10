@@ -1,0 +1,12 @@
+services:
+  sharkord:
+    image: sharkord/sharkord:latest
+    container_name: sharkord
+    restart: unless-stopped
+    ports:
+      - "4991:4991/tcp"
+      - "40000-40020:40000-40020/tcp"
+      - "40000-40020:40000-40020/udp"
+    volumes:
+      # Umbrel-konformer Pfad
+      - ${APP_DATA_DIR}/data:/root/.config/sharkord

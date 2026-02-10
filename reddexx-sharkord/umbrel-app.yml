@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: reddexx-sharkord
+name: Sharkord
+tagline: WOL Tool
+icon: https://sharkord.com/_next/image?url=%2Flogo.webp&w=48&q=75
+category: Communication
+version: "0.1.0"
+port: 4991
+description: >-
+  Sharkord is a specialized server service designed for high performance. 
+  This app allows you to run a full Sharkord instance directly on your Umbrel 
+  with persistent data storage and pre-configured networking.
+developer: sharkord
+website: https://github.com/sharkord/sharkord
+submitter: Reddexx
+submission:
+repo:
+support: 
+gallery:
+releaseNotes: >
+  - Initial release of UPSnap for Umbrel. This version includes the latest features and improvements from UPSnap 5.2.7, providing users with a powerful tool for waking up devices on their local network using Wake-on-LAN (WOL) technology.
+    
+dependencies: []
+path: ""
