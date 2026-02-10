@@ -2,7 +2,7 @@ manifestVersion: 1
 id: reddexx-sharkord
 name: Sharkord
 tagline: Discord Alternative
-icon: https://sharkord.com/_next/image?url=%2Flogo.webp&w=48&q=75
+icon: https://github.com/reddexx/umbrel-AppStore/blob/master/images/sharkord/logo.webp?raw=true
 category: Communication
 version: "0.1.0"
 port: 4991
@@ -15,6 +15,8 @@ submission:
 repo:
 support: 
 gallery:
+  - https://raw.githubusercontent.com/reddexx/umbrel-AppStore/refs/heads/master/images/sharkord/firefox_3DU8gFVWvi.png
+  - https://raw.githubusercontent.com/reddexx/umbrel-AppStore/refs/heads/master/images/sharkord/ROXbnfFzFS.png
 releaseNotes: >
 dependencies: []
 path: ""
