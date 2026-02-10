@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: reddexx-sharkord
 name: Sharkord
-tagline: WOL Tool
+tagline: Discord Alternative
 icon: https://sharkord.com/_next/image?url=%2Flogo.webp&w=48&q=75
 category: Communication
 version: "0.1.0"
