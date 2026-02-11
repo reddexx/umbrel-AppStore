@@ -4,7 +4,7 @@ name: Sharkord (BETA)
 tagline: Discord Alternative
 icon: https://github.com/reddexx/umbrel-AppStore/blob/master/images/sharkord/logo.webp?raw=true
 category: Communication
-version: "0.1.0"
+version: "0.2.0"
 port: 4991
 description: >-
   Sharkord is a specialized server service designed for high performance. This app allows you to run a full Sharkord instance directly on your Umbrel with persistent data storage and pre-configured networking.
