@@ -1,0 +1,25 @@
+manifestVersion: 1
+id: reddexx-sure
+name: Sure
+tagline: Finance and budgeting
+icon: https://sure.am/assets/icon-maybe-color-64552140.svg
+category: Finance
+version: "0.6.7"
+port: 3063
+description: >-
+  Sure is a finance and budgeting tool that helps you manage your personal finances effectively. It provides a simple interface to track your expenses, set budgets, and monitor your financial health.
+developer: we-promise
+website: https://github.com/we-promise/sure/
+submitter: Reddexx
+submission:
+repo: https://github.com/we-promise/sure/
+support: 
+gallery:
+  - https://sure.am/assets/maybe-home-hero-693711d6.png
+  - https://sure.am/assets/home-transactions-e1ba6f14.png
+  - 
+releaseNotes: >
+  - 0.6.7
+    - Fixes a bug where the app would crash when trying to load the transactions page with a large number of transactions.
+dependencies: []
+path: ""
