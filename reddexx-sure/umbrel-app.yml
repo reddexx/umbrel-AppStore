@@ -4,7 +4,7 @@ name: Sure
 tagline: Finance and budgeting
 icon: https://sure.am/assets/icon-maybe-color-64552140.svg
 category: Finance
-version: "0.6.7"
+version: "0.6.8"
 port: 3063
 description: >-
   Sure is a finance and budgeting tool that helps you manage your personal finances effectively. It provides a simple interface to track your expenses, set budgets, and monitor your financial health.
