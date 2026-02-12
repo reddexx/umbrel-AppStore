@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: reddexx-tatsu
+name: Tatsu
+tagline: Tools
+icon: https://sanity.my/_next/image?url=%2FLogo.png&w=64&q=75
+category: Tools
+version: "0.1"
+port: 9701
+description: >-
+  Tatsu is a todo app on steroids, designed to keep you motivated and productive. Key features include:
+
+  Evolving Avatars: Your avatar grows as you complete your todo goals (TBD).
+
+  Long-term Todo Tracking: Stay on top of your big-picture tasks (TBD).
+
+  Notion-like Editor: A powerful, intuitive interface for note taking.
+
+  End-to-End Encrypted File Uploads: Securely store and manage your files.
+
+  More exciting features coming soon!
+developer: ZhengJiawen44
+website: https://github.com/ZhengJiawen44/tatsu
+submitter: Reddexx
+submission:
+repo: https://github.com/ZhengJiawen44/tatsu
+support: 
+gallery:
+  - https://sanity.my/_next/image?url=%2Fhero.webp&w=3840&q=80
+dependencies: []
+path: ""
