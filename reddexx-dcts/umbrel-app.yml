@@ -1,0 +1,21 @@
+manifestVersion: 1
+id: reddexx-dcts
+name: DCTS
+tagline: Comunication
+icon: https://github.com/hackthedev/dcts-shipping/blob/main/public/img/default_pfp.png?raw=true
+category: Comunication
+version: "0.1"
+port: 2501
+description: >-
+  DCTS is a self-hosted communication platform built with Go, React, and LiveKit. It offers features like messaging, voice/video calls, and file sharing, all while prioritizing user privacy and security. With DCTS, you can stay connected with your team or community without relying on third-party services.
+developer: hackthedev
+website: https://github.com/hackthedev/dcts-shipping
+submitter: Reddexx
+submission:
+repo: https://github.com/hackthedev/dcts-shipping
+support: 
+gallery:
+  - https://github.com/hackthedev/dcts-shipping/raw/main/assets/image.png
+  - https://github.com/hackthedev/dcts-shipping/raw/main/assets/image-20251127214420083.png
+dependencies: []
+path: ""
