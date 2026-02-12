@@ -1,9 +1,9 @@
 manifestVersion: 1
 id: reddexx-dcts
 name: DCTS
-tagline: Comunication
+tagline: Communication
 icon: https://github.com/hackthedev/dcts-shipping/blob/main/public/img/default_pfp.png?raw=true
-category: Comunication
+category: Communication
 version: "0.1"
 port: 2501
 description: >-
