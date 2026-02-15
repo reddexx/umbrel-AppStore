@@ -4,7 +4,7 @@ name: DCTS (not working yet)
 tagline: Communication
 icon: https://github.com/hackthedev/dcts-shipping/blob/main/public/img/default_pfp.png?raw=true
 category: Communication
-version: "0.2"
+version: "0.3"
 port: 2501
 description: >-
   DCTS is a self-hosted communication platform built with Go, React, and LiveKit. It offers features like messaging, voice/video calls, and file sharing, all while prioritizing user privacy and security. With DCTS, you can stay connected with your team or community without relying on third-party services.
