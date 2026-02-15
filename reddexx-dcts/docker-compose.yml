@@ -9,9 +9,9 @@ services:
       - DB_USER=dcts
       - DB_PASS=dcts
       - DB_NAME=dcts
-      - LIVEKIT_URL=your_proxied_url # e.g., livekit.example.com
-      - LIVEKIT_KEY=change_me
-      - LIVEKIT_SECRET=change_me
+      - LIVEKIT_URL=umbrel.local # e.g., livekit.example.com
+      - LIVEKIT_KEY=3rzhf803uteghe480uj
+      - LIVEKIT_SECRET=z08gzu348fzihoh
       - DEBUG=false # optional
     restart: unless-stopped
     ports:
