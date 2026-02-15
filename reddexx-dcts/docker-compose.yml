@@ -50,6 +50,3 @@ services:
       - 3478:3478/udp
       - 5349:5349/tcp
 
-volumes:
-  dcts-mariadb-data:
-  dcts-redis-data:
