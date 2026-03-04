@@ -4,7 +4,7 @@ name: BentoPDF
 tagline: Tools
 icon: https://www.bentopdf.com/images/favicon-no-bg.svg
 category: Tools
-version: "2.2.0"
+version: "2.4.0"
 port: 9119
 description: >-
   BentoPDF is a tool for converting documents to PDF format. It provides a simple and efficient way to convert various document formats to PDF, making it easy to share and store documents in a universally compatible format.
