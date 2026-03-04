@@ -4,7 +4,7 @@ name: Changedetection Plus
 tagline: Monitoring
 icon: https://www.drupal.org/files/avatar-256x256.png
 category: Monitoring
-version: "0.1.01"
+version: "0.1.02"
 port: 8701
 description: >-
   Changedetection Plus is a web monitoring tool that helps you track changes on websites and get notified when they occur.
