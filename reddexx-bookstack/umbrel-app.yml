@@ -4,7 +4,7 @@ name: Bookstack
 tagline: 
 icon: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/BookStack_logo.svg/345px-BookStack_logo.svg.png
 category: Wiki
-version: "1.0.31"
+version: "25.12.8"
 port: 4555
 description: >-
   Install Bookstack on Umbrel
@@ -13,14 +13,14 @@ developer: ssddanbrown
 website: https://bookstack.com
 submitter: Reddexx
 submission:
-repo:
-support: 
+repo: https://github.com/ssddanbrown/BookStack
+support: https://github.com/ssddanbrown/BookStack/issues
 gallery:
   - https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/5702aea8-a573-4956-9fbc-36b5253b6157.png
   - https://opensource.com/sites/default/files/2022-11/bookstack.bookview.png
   - https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/bd02a1a4-6aa1-47c9-bff5-55658c7c10bb.png
 releaseNotes: >
-  - Version 25.12.3
+  - Version 25.12.8
 dependencies: []
 path: ""
 defaultUsername: "admin@admin.com"
