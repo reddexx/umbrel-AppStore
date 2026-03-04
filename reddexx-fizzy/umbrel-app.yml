@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: reddexx-fizzy
+name: Fizzy
+tagline: 
+icon: https://github.com/basecamp/fizzy/blob/main/public/app-icon-192.png?raw=true
+category: Tools
+version: "0.0.1"
+port: 10100
+description: >
+  Install Fizzy on Umbrel
+website: https://github.com/basecamp/fizzy
+submitter: Reddexx
+submission:
+repo: https://github.com/basecamp/fizzy
+support: https://github.com/basecamp/fizzy/issues
+gallery:
+  - https://www.fizzy.do/assets/images/features-02.webp
+  - https://www.fizzy.do/assets/images/board.webp
+releaseNotes: >
+  
+dependencies: []
+path: ""

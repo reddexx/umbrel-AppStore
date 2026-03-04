@@ -1,0 +1,8 @@
+services:
+  web:
+    image: ghcr.io/basecamp/fizzy:main
+    restart: unless-stopped
+    ports:
+      - "4991:80"
+    volumes:
+      - ${APP_DATA_DIR}/:/rails/storage
