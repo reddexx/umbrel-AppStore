@@ -3,7 +3,7 @@ id: reddexx-moocup
 name: moocup
 tagline: 
 icon: https://moocup.jaydip.me/favicon.svg
-category: other
+category: Tools
 version: "1.1"
 port: 7191
 description: >

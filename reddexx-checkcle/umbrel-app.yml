@@ -3,7 +3,7 @@ id: reddexx-checkcle
 name: CheckCle 
 tagline: 
 icon: https://checkcle.io/uploads/checkcle_logo.png
-category: other
+category: Monitoring
 version: "1.0.2"
 port: 6597
 description: >

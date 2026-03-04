@@ -1,0 +1,52 @@
+services:
+  dcts-app:
+    image: ghcr.io/hackthedev/dcts-shipping:latest
+    depends_on:
+      - dcts-mariadb
+      - dcts-livekit
+    environment:
+      - DB_HOST=dcts-mariadb
+      - DB_USER=dcts
+      - DB_PASS=dcts
+      - DB_NAME=dcts
+      - LIVEKIT_URL=umbrel.local # e.g., livekit.example.com
+      - LIVEKIT_KEY=3rzhf803uteghe480uj
+      - LIVEKIT_SECRET=z08gzu348fzihoh
+      - DEBUG=false # optional
+    restart: unless-stopped
+    ports:
+      - 2052:2052
+    volumes:
+      - ${APP_DATA_DIR}/dcts/sv:/app/sv
+      - ${APP_DATA_DIR}/dcts/configs:/app/configs
+      - ${APP_DATA_DIR}/dcts/uploads:/app/public/uploads
+      - ${APP_DATA_DIR}/dcts/emojis:/app/public/emojis
+      - ${APP_DATA_DIR}/dcts/plugins:/app/plugins
+
+  dcts-mariadb:
+    image: mariadb:latest
+    environment:
+      - MARIADB_RANDOM_ROOT_PASSWORD=1
+      - MARIADB_DATABASE=dcts
+      - MARIADB_USER=dcts
+      - MARIADB_PASSWORD=dcts
+    volumes:
+      - ${APP_DATA_DIR}/dcts-mariadb-data:/var/lib/mysql
+
+  dcts-redis:
+    image: redis:alpine
+    volumes:
+      - ${APP_DATA_DIR}/dcts-redis-data:/data
+
+  dcts-livekit:
+    image: livekit/livekit-server:latest
+    command: --config /etc/livekit.yaml
+    volumes:
+      - ${APP_DATA_DIR}/livekit.yaml:/etc/livekit.yaml
+    ports:
+      - 7880:7880
+      - 7881:7881
+      - 7882:7882/udp
+      - 3478:3478/udp
+      - 5349:5349/tcp
+

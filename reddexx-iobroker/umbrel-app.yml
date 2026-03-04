@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: reddexx-iobroker
+name: ioBroker
+tagline: 
+icon: https://github.com/ioBroker/ioBroker/raw/master/img/logos/ioBroker_Logo_256px.png
+category: Automation
+version: "0.0.5"
+port: 7188
+description: >-
+  ioBroker is an open-source Internet of Things (IoT) platform that allows you to connect and manage various smart devices and services in your home. It provides a user-friendly interface and supports a wide range of integrations, making it easy to create custom automation rules and routines.
+
+developer: buanet
+website: https://github.com/buanet/ioBroker.docker
+submitter: reddexx
+submission:
+repo:
+support: 
+gallery:
+  - https://www.iobroker.net/de/admin/media/ADMIN_Objekte_status_tree.png
+
+releaseNotes: >
+  
+dependencies: []
+path: ""

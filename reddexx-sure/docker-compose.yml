@@ -1,0 +1,85 @@
+services:
+  app_proxy:
+    environment:
+      APP_HOST: maybe_web_1
+      APP_PORT: 3063
+    container_name: maybe_app_proxy_1
+  web:
+    image: ghcr.io/we-promise/sure:latest
+    restart: on-failure
+    stop_grace_period: 1m
+    volumes:
+      - ${APP_DATA_DIR}/data/rails:/rails/storage
+    environment:
+      SELF_HOSTING_ENABLED: 'true'
+      PORT: 3063
+      DATABASE_URL: postgresql://maybe:maybe@maybe%5Fdb%5F1:5432/maybe
+      RAILS_FORCE_SSL: 'false'
+      RAILS_ASSUME_SSL: 'false'
+      POSTGRES_DB: maybe
+      POSTGRES_USER: maybe
+      POSTGRES_PASSWORD: maybe
+      GOOD_JOB_EXECUTION_MODE: async
+      SECRET_KEY_BASE: $APP_SEED
+      REDIS_URL: redis://maybe_redis_1:6379/1
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    container_name: maybe_web_1
+  worker:
+    image: ghcr.io/we-promise/sure:latest
+    command: bundle exec sidekiq
+    restart: on-failure
+    environment:
+      SELF_HOSTING_ENABLED: 'true'
+      PORT: 3063
+      DATABASE_URL: postgresql://maybe:maybe@maybe%5Fdb%5F1:5432/maybe
+      RAILS_FORCE_SSL: 'false'
+      RAILS_ASSUME_SSL: 'false'
+      POSTGRES_DB: maybe
+      POSTGRES_USER: maybe
+      POSTGRES_PASSWORD: maybe
+      GOOD_JOB_EXECUTION_MODE: async
+      SECRET_KEY_BASE: $APP_SEED
+      REDIS_URL: redis://maybe_redis_1:6379/1
+    depends_on:
+      redis:
+        condition: service_healthy
+    container_name: maybe_worker_1
+  db:
+    image: >-
+      postgres:16@sha256:1bf73ccae25238fa555100080042f0b2f9be08eb757e200fe6afc1fc413a1b3c
+    restart: on-failure
+    stop_grace_period: 1m
+    volumes:
+      - ${APP_DATA_DIR}/data/postgres:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: maybe
+      POSTGRES_USER: maybe
+      POSTGRES_PASSWORD: maybe
+      PGDATA: /var/lib/postgresql/data/pgdata
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - pg_isready -U maybe
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    container_name: maybe_db_1
+  redis:
+    image: redis:latest
+    user: '1000:1000'
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data/redis:/data
+    healthcheck:
+      test:
+        - CMD
+        - redis-cli
+        - ping
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    container_name: maybe_redis_1
