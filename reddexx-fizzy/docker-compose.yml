@@ -6,3 +6,5 @@ services:
       - "4991:80"
     volumes:
       - ${APP_DATA_DIR}/:/rails/storage
+    environment:
+      - SECRET_KEY_BASE=umbrel4life
