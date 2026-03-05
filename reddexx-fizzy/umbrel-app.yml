@@ -4,7 +4,7 @@ name: Fizzy
 tagline: 
 icon: https://github.com/basecamp/fizzy/blob/main/public/app-icon-192.png?raw=true
 category: Tools
-version: "0.0.9"
+version: "0.0.10"
 port: 4991
 description: >
   Install Fizzy on Umbrel
