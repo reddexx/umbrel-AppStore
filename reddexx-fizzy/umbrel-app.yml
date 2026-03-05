@@ -8,6 +8,12 @@ version: "0.0.10"
 port: 4991
 description: >
   Install Fizzy on Umbrel
+
+  Attention:
+  you need a Reverse Proxy for this!!
+
+  Create an entry called fuzzy.local in Reverse Proxy
+  and point it to http://<IP-ADDRESS>:4991
 website: https://github.com/basecamp/fizzy
 submitter: Reddexx
 submission:
