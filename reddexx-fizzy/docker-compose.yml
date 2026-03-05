@@ -10,4 +10,3 @@ services:
       - SECRET_KEY_BASE=umbrel4life
       - DISABLE_SSL=true
       - BASE_URL=http://fizzy.local
-      - TLS_DOMAIN=fizzy.local
